@@ -12,139 +12,53 @@ soup = BeautifulSoup(page.content, 'html.parser')
 fish_data_list = []
 tbodies = soup.find_all('tbody')
 
-# grab the second table
-# Table 2 contains Catfish data
-tbody = tbodies[1] if len(tbodies) > 1 else None
-for row in tbody.find_all('tr'):
-    print (row)
-    cells = row.find_all('td')  # Use 'td' for data cells, assuming 'th' is used for header cells which are not needed here
-    if len(cells) > 1:  # Check to ensure there are enough cells for data extraction
-        # Check and extract image URL correctly
-        image_cell = cells[2].find('img')
-        image_url = f"https:{image_cell['src']}" if image_cell and 'src' in image_cell.attrs else ""
+# Group and Subgroup names
+groups = ["Catfish", "Characins & Other Characiformes", "Cichlids", "Cyprinids", "Loaches & Related Cypriniformes", 
+    "Livebearers & Killifish", "Labyrinth Fish", "Rainbowfish", "Gobies & Sleepers", "Sunfish & Relatives", "Others"]
+catfish_subgroups = ["Armored Catfish", "Armoured Suckermouth Catfish", "Long-whiskered Catfish", 
+    "Squeakers & Upside-down Catfish", "Other Catfish"]
+characins_subgroups = ["Tetras", "Hatchetfish", "Pencilfish", "Serrasalminae", "Other Characins"]
+cichlids_subgroups = ["Lake Malawi Cichlids", "Lake Tanganyika Cichlids", "Lake Victorio Cichlids", 
+    "Miscellaneous African Cichlids", "Dwarf Cichlids" "Central American Cichlids", "South American", "Other Cichlids"]
+cyprinids_subgroups = ["Barbs", "Other Cyprinids", "Rasboras", "Danios & Other Danionins", "Cold-water Cyprinids"]
+loaches_subgroups = ["Loaches"]
+livebearers_subgroups = ["Guppies & Mollies", "Platies & Swordtails", "Other Livebearers", "Killifish"]
+labyrinthfish_subgroups = ["Gouramis", "Other Labyrinth Fish"]
+rainbowfish_subgroups = ["Rainbowfish"]
+gobies_subgroups = ["Gobies & Sleepers"]
+sunfish_subgroups = ["Sunfish & Relatives"]
+others_subgroups = ["Others"]
 
-        # Append a new dictionary for each fish directly into fish_data_list
-        fish_data_list.append({
-            "name": cells[0].text.strip(),
-            "scientific_name": cells[1].text.strip(),
-            "image": image_url,
-            "size": cells[3].text.strip(),
-            "remarks": cells[4].text.strip(),
-            "min_tank_size": cells[5].text.strip(),
-            "temperature": cells[6].text.strip(),
-            "ph": cells[7].text.strip(),
-            "group": "Catfish",
-            "subgroup": "Armored Catfish"
-            # Add more fields as needed
-        })
+all_subgroups = [catfish_subgroups, characins_subgroups, cichlids_subgroups, cyprinids_subgroups, loaches_subgroups, 
+    livebearers_subgroups, labyrinthfish_subgroups, rainbowfish_subgroups, gobies_subgroups, sunfish_subgroups, others_subgroups]
 
+# Scrapes whichever table is passed to it
+def Scrape(tbody, group, subgroup):
+    for row in tbody.find_all('tr'):
+        cells = row.find_all('td')  # Use 'td' for data cells, assuming 'th' is used for header cells which are not needed here
+        if len(cells) > 1:  # Check to ensure there are enough cells for data extraction
+            # Check and extract image URL correctly
+            image_cell = cells[2].find('img')
+            image_url = f"https:{image_cell['src']}" if image_cell and 'src' in image_cell.attrs else ""
 
-# grab the third table
-# Table 3 contains armored suckermouth Catfish data
-tbody = tbodies[2] if len(tbodies) > 1 else None
-for row in tbody.find_all('tr'):
-    print (row)
-    cells = row.find_all('td')  # Use 'td' for data cells, assuming 'th' is used for header cells which are not needed here
-    if len(cells) > 1:  # Check to ensure there are enough cells for data extraction
-        # Check and extract image URL correctly
-        image_cell = cells[2].find('img')
-        image_url = f"https:{image_cell['src']}" if image_cell and 'src' in image_cell.attrs else ""
+            # Append a new dictionary for each fish directly into fish_data_list
+            fish_data_list.append({
+                "name": cells[0].text.strip(),
+                "scientific_name": cells[1].text.strip(),
+                "image": image_url,
+                "size": cells[3].text.strip(),
+                "remarks": cells[4].text.strip(),
+                "min_tank_size": cells[5].text.strip(),
+                "temperature": cells[6].text.strip(),
+                "ph": cells[7].text.strip(),
+                "group": group,
+                "subgroup": subgroup
+                # Add more fields as needed
+            })
 
-        # Append a new dictionary for each fish directly into fish_data_list
-        fish_data_list.append({
-            "name": cells[0].text.strip(),
-            "scientific_name": cells[1].text.strip(),
-            "image": image_url,
-            "size": cells[3].text.strip(),
-            "remarks": cells[4].text.strip(),
-            "min_tank_size": cells[5].text.strip(),
-            "temperature": cells[6].text.strip(),
-            "ph": cells[7].text.strip(),
-            "group": "Catfish",
-            "subgroup": "Armored SuckerMouth Catfish"
-            # Add more fields as needed
-        })
-
-
-# grab 4th table
-#contains long wiskered catfish
-tbody = tbodies[3] if len(tbodies) > 1 else None
-for row in tbody.find_all('tr'):
-    print (row)
-    cells = row.find_all('td')  # Use 'td' for data cells, assuming 'th' is used for header cells which are not needed here
-    if len(cells) > 1:  # Check to ensure there are enough cells for data extraction
-        # Check and extract image URL correctly
-        image_cell = cells[2].find('img')
-        image_url = f"https:{image_cell['src']}" if image_cell and 'src' in image_cell.attrs else ""
-
-        # Append a new dictionary for each fish directly into fish_data_list
-        fish_data_list.append({
-            "name": cells[0].text.strip(),
-            "scientific_name": cells[1].text.strip(),
-            "image": image_url,
-            "size": cells[3].text.strip(),
-            "remarks": cells[4].text.strip(),
-            "min_tank_size": cells[5].text.strip(),
-            "temperature": cells[6].text.strip(),
-            "ph": cells[7].text.strip(),
-            "group": "Catfish",
-            "subgroup": "Long-whiskered Catfish"
-            # Add more fields as needed
-        })
-
-
-# grab 5th table
-#contains squeakers and upside-down catfish
-tbody = tbodies[4] if len(tbodies) > 1 else None
-for row in tbody.find_all('tr'):
-    print (row)
-    cells = row.find_all('td')  # Use 'td' for data cells, assuming 'th' is used for header cells which are not needed here
-    if len(cells) > 1:  # Check to ensure there are enough cells for data extraction
-        # Check and extract image URL correctly
-        image_cell = cells[2].find('img')
-        image_url = f"https:{image_cell['src']}" if image_cell and 'src' in image_cell.attrs else ""
-
-        # Append a new dictionary for each fish directly into fish_data_list
-        fish_data_list.append({
-            "name": cells[0].text.strip(),
-            "scientific_name": cells[1].text.strip(),
-            "image": image_url,
-            "size": cells[3].text.strip(),
-            "remarks": cells[4].text.strip(),
-            "min_tank_size": cells[5].text.strip(),
-            "temperature": cells[6].text.strip(),
-            "ph": cells[7].text.strip(),
-            "group": "Catfish",
-            "subgroup": "Squeakers & Upside-down Catfish"
-            # Add more fields as needed
-        })
-
-
-# grab 6th table
-#contains other catfish
-tbody = tbodies[5] if len(tbodies) > 1 else None
-for row in tbody.find_all('tr'):
-    print (row)
-    cells = row.find_all('td')  # Use 'td' for data cells, assuming 'th' is used for header cells which are not needed here
-    if len(cells) > 1:  # Check to ensure there are enough cells for data extraction
-        # Check and extract image URL correctly
-        image_cell = cells[2].find('img')
-        image_url = f"https:{image_cell['src']}" if image_cell and 'src' in image_cell.attrs else ""
-
-        # Append a new dictionary for each fish directly into fish_data_list
-        fish_data_list.append({
-            "name": cells[0].text.strip(),
-            "scientific_name": cells[1].text.strip(),
-            "image": image_url,
-            "size": cells[3].text.strip(),
-            "remarks": cells[4].text.strip(),
-            "min_tank_size": cells[5].text.strip(),
-            "temperature": cells[6].text.strip(),
-            "ph": cells[7].text.strip(),
-            "group": "Catfish",
-            "subgroup": "Other Catfish"
-            # Add more fields as needed
-        })
+for i in range(len(groups)):
+    for j in range(len(all_subgroups[i])):
+        Scrape(tbodies[j+1], groups[i], all_subgroups[i][j])
 
 
 
