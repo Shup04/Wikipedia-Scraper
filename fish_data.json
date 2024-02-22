@@ -1,2461 +1,582 @@
 [
     {
-        "name": "Armored catfish including Aspidoras, Brochis, Callichthys, and Corydoras"
-    },
-    {
         "name": "Brown-Point Shield Skin",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Aspidoras_fuscoguttatus.jpg/175px-Aspidoras_fuscoguttatus.jpg"
+        "scientific_name": "Aspidoras fuscoguttatus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Aspidoras_fuscoguttatus.jpg/175px-Aspidoras_fuscoguttatus.jpg",
+        "size": "3.8 cm\n(1.5 in)",
+        "remarks": "",
+        "min_tank_size": "30 Gallons",
+        "temperature": "22–25 °C (72–77 °F)[1]",
+        "ph": "5.5–6.8[1]"
     },
     {
-        "name": "Aspidoras Cory-Cat"
+        "name": "Aspidoras Cory-Cat",
+        "scientific_name": "Aspidoras lakoi",
+        "image": "",
+        "size": "4 cm (1.6 in)[2]",
+        "remarks": "",
+        "min_tank_size": "28 Gallons",
+        "temperature": "22–25 °C (72–77 °F)",
+        "ph": ""
     },
     {
-        "name": "Loach catfish"
+        "name": "Loach catfish",
+        "scientific_name": "Aspidoras rochai",
+        "image": "",
+        "size": "4 cm (1.6 in) maximum length[3]",
+        "remarks": "",
+        "min_tank_size": "20 Gallons",
+        "temperature": "21 – 25 degrees Celsius[3]",
+        "ph": "6.0-7.5[3]"
     },
     {
         "name": "Sixray corydoras, false corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/False_cory_1.jpg/175px-False_cory_1.jpg"
+        "scientific_name": "Aspidoras pauciradiatus",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/False_cory_1.jpg/175px-False_cory_1.jpg",
+        "size": "2.9 cm (1.1 in)[4]",
+        "remarks": "",
+        "min_tank_size": "20 Gallons",
+        "temperature": "73–82 °F (23–28 °C)",
+        "ph": "6.0-7.2[4]"
     },
     {
-        "name": "Britski's catfish"
+        "name": "Britski's catfish",
+        "scientific_name": "Brochis britskii",
+        "image": "",
+        "size": "8.9 cm (3.5 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "20–24 °C (68–75 °F)",
+        "ph": "6.5-7.2[5]"
     },
     {
         "name": "Emerald catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Brochis_splendens_im_Aquarium.jpg/175px-Brochis_splendens_im_Aquarium.jpg"
+        "scientific_name": "Brochis splendens",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Brochis_splendens_im_Aquarium.jpg/175px-Brochis_splendens_im_Aquarium.jpg",
+        "size": "10 cm (3.9 in)",
+        "remarks": "The Emerald Cory Catfish is a very hardy and resilient fish.  Disease should not be a concern provided that you maintain the aquarium to standards.[6]",
+        "min_tank_size": "20 Gallons",
+        "temperature": "72 - 82 F (22 - 27.7 C)[6]",
+        "ph": "5.8-8.0[7]"
     },
     {
         "name": "Hognosed brochis",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fish_at_Louisville_Zoo_025.jpg/175px-Fish_at_Louisville_Zoo_025.jpg"
+        "scientific_name": "Brochis multiradiatus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fish_at_Louisville_Zoo_025.jpg/175px-Fish_at_Louisville_Zoo_025.jpg",
+        "size": "6.6 cm (2.6 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "70-75 °F (21-24 °C)",
+        "ph": "6.0-7.2"
     },
     {
         "name": "Adolfo's catfish/corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Corydoras-adolfoi-alone.jpg/175px-Corydoras-adolfoi-alone.jpg"
+        "scientific_name": "Corydoras adolfoi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Corydoras-adolfoi-alone.jpg/175px-Corydoras-adolfoi-alone.jpg",
+        "size": "5.7 cm (2.2 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "72–79 °F (22–26 °C)",
+        "ph": "6.0-7.0"
     },
     {
         "name": "Banded corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Schleromystax_barbatus5015.jpg/175px-Schleromystax_barbatus5015.jpg"
+        "scientific_name": "Scleromystax barbatus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Schleromystax_barbatus5015.jpg/175px-Schleromystax_barbatus5015.jpg",
+        "size": "10 cm (3.9 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "68 °F (20 °C) to 82 °F (28 °C)",
+        "ph": "6.0–8.0"
     },
     {
         "name": "Masked corydoras, bandit corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Acuario.jpg/175px-Acuario.jpg"
+        "scientific_name": "Corydoras metae",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Acuario.jpg/175px-Acuario.jpg",
+        "size": "4.8 cm (1.9 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "72–79 °F (22–26 °C)",
+        "ph": "6.0-7.0"
     },
     {
         "name": "Barred-tail corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Barred_tail_corydoras.jpg/175px-Barred_tail_corydoras.jpg"
+        "scientific_name": "Corydoras cochui",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Barred_tail_corydoras.jpg/175px-Barred_tail_corydoras.jpg",
+        "size": "2.5 cm (0.98 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "70-75 °F",
+        "ph": "6.0 - 7.0"
     },
     {
-        "name": "Blackstripe corydoras"
+        "name": "Blackstripe corydoras",
+        "scientific_name": "Corydoras bondi",
+        "image": "",
+        "size": "4.7 cm (1.9 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Blacktop corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Corydoras_acutus_by_Frank_M._Greco.jpg/175px-Corydoras_acutus_by_Frank_M._Greco.jpg"
+        "scientific_name": "Corydoras acutus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Corydoras_acutus_by_Frank_M._Greco.jpg/175px-Corydoras_acutus_by_Frank_M._Greco.jpg",
+        "size": "4.4 cm (1.7 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Blue corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Corydoras_nattereri.JPG/175px-Corydoras_nattereri.JPG"
+        "scientific_name": "Corydoras nattereri",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Corydoras_nattereri.JPG/175px-Corydoras_nattereri.JPG",
+        "size": "5.4 cm (2.1 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Bluespotted corydoras"
+        "name": "Bluespotted corydoras",
+        "scientific_name": "Corydoras melanistius",
+        "image": "",
+        "size": "5.1 cm (2.0 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Bronze corydoras, Emerald green cory",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Corydoras_aeneus_2.jpg/175px-Corydoras_aeneus_2.jpg"
+        "scientific_name": "Corydoras aeneus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Corydoras_aeneus_2.jpg/175px-Corydoras_aeneus_2.jpg",
+        "size": "6.35 cm (2.50 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "77 to 82 °F (25 to 28 °C)",
+        "ph": ""
     },
     {
         "name": "Caracha",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Corydoras_Atropersonatus.jpg/175px-Corydoras_Atropersonatus.jpg"
+        "scientific_name": "Corydoras atropersonatus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Corydoras_Atropersonatus.jpg/175px-Corydoras_Atropersonatus.jpg",
+        "size": "4.5 cm (1.8 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Ehrhardt's corydoras"
+        "name": "Ehrhardt's corydoras",
+        "scientific_name": "Corydoras ehrhardti",
+        "image": "",
+        "size": "4.1 cm (1.6 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Evelyn's cory"
+        "name": "Evelyn's cory",
+        "scientific_name": "Corydoras evelynae",
+        "image": "",
+        "size": "4 cm (1.6 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": ""
+        "name": "",
+        "scientific_name": "Corydoras geoffroy",
+        "image": "",
+        "size": "7 cm (2.8 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": ""
+        "name": "",
+        "scientific_name": "Corydoras latus",
+        "image": "",
+        "size": "5.2 cm (2.0 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Loxozonus cory",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Corydoras_loxozonus_1.jpg/175px-Corydoras_loxozonus_1.jpg"
+        "scientific_name": "Corydoras loxozonus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Corydoras_loxozonus_1.jpg/175px-Corydoras_loxozonus_1.jpg",
+        "size": "4.9 cm (1.9 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Corydoras nain"
+        "name": "Corydoras nain",
+        "scientific_name": "Corydoras nanus",
+        "image": "",
+        "size": "4.5 cm (1.8 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Long nosed arched cory"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": ""
+        "name": "Long nosed arched cory",
+        "scientific_name": "Corydoras narcissus",
+        "image": "",
+        "size": "6.5 cm (2.6 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Corydoras_semiaquilus_1.jpg/175px-Corydoras_semiaquilus_1.jpg"
+        "scientific_name": "Corydoras ornatus",
+        "image": "",
+        "size": "4.9 cm (1.9 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": ""
+        "name": "",
+        "scientific_name": "Corydoras osteocarus",
+        "image": "",
+        "size": "4 cm (1.6 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": ""
+        "name": "",
+        "scientific_name": "Corydoras polystictus",
+        "image": "",
+        "size": "3.2 cm (1.3 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": ""
+        "name": "",
+        "scientific_name": "Scleromystax prionotos",
+        "image": "",
+        "size": "5.3 cm (2.1 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
+    },
+    {
+        "name": "",
+        "scientific_name": "Corydoras semiaquilus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Corydoras_semiaquilus_1.jpg/175px-Corydoras_semiaquilus_1.jpg",
+        "size": "6.0 cm (2.4 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
+    },
+    {
+        "name": "",
+        "scientific_name": "Corydoras septentrionalis",
+        "image": "",
+        "size": "4.9 cm (1.9 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
+    },
+    {
+        "name": "",
+        "scientific_name": "Corydoras simulatus",
+        "image": "",
+        "size": "4.9 cm (1.9 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
+    },
+    {
+        "name": "",
+        "scientific_name": "Corydoras undulatus",
+        "image": "",
+        "size": "4.4 cm (1.7 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Dwarf corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Corydoras_hastatus.jpg/175px-Corydoras_hastatus.jpg"
+        "scientific_name": "Corydoras hastatus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Corydoras_hastatus.jpg/175px-Corydoras_hastatus.jpg",
+        "size": "3.5 cm (1.4 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Elegant corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Corydoras_elegans.jpg/175px-Corydoras_elegans.jpg"
+        "scientific_name": "Corydoras elegans",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Corydoras_elegans.jpg/175px-Corydoras_elegans.jpg",
+        "size": "5.1 cm (2.0 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "False network catfish"
+        "name": "False network catfish",
+        "scientific_name": "Corydoras sodalis",
+        "image": "",
+        "size": "4.9 cm (1.9 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "False spotted catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Corydoras_leucomelas.jpg/175px-Corydoras_leucomelas.jpg"
+        "scientific_name": "Corydoras leucomelas",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Corydoras_leucomelas.jpg/175px-Corydoras_leucomelas.jpg",
+        "size": "4.5 cm (1.8 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Gold laser cory",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Corydoras_sp._CW010.jpg/175px-Corydoras_sp._CW010.jpg"
+        "scientific_name": "Corydoras melanotaenia",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Corydoras_sp._CW010.jpg/175px-Corydoras_sp._CW010.jpg",
+        "size": "5.8 cm (2.3 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Guapore corydoras"
+        "name": "Guapore corydoras",
+        "scientific_name": "Corydoras guapore",
+        "image": "",
+        "size": "4.1 cm (1.6 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Mosaic corydoras, reticulated corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Corydoras_haraldschultzi_aquarium.jpg/175px-Corydoras_haraldschultzi_aquarium.jpg"
+        "scientific_name": "Corydoras haraldschultzi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Corydoras_haraldschultzi_aquarium.jpg/175px-Corydoras_haraldschultzi_aquarium.jpg",
+        "size": "5.9 cm (2.3 in)[8]",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Mosaic corydoras, reticulated corydoras"
+        "name": "Mosaic corydoras, reticulated corydoras",
+        "scientific_name": "Corydoras reticulatus",
+        "image": "",
+        "size": "5.1–6.1 cm (2.0–2.4 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Panda corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Corydoras_panda_01.jpg/175px-Corydoras_panda_01.jpg"
+        "scientific_name": "Corydoras panda",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Corydoras_panda_01.jpg/175px-Corydoras_panda_01.jpg",
+        "size": "3.8–5.1 cm (1.5–2.0 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": "6.0-8.0[9]"
     },
     {
-        "name": "Pastaza corydoras"
+        "name": "Pastaza corydoras",
+        "scientific_name": "Corydoras pastazensis",
+        "image": "",
+        "size": "6.4–7.1 cm (2.5–2.8 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Peppered corydoras, salt and pepper catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Corydoras_paleatus_by_NiKo.jpg/175px-Corydoras_paleatus_by_NiKo.jpg"
+        "scientific_name": "Corydoras paleatus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Corydoras_paleatus_by_NiKo.jpg/175px-Corydoras_paleatus_by_NiKo.jpg",
+        "size": "5.1–7.6 cm (2.0–3.0 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Pink corydoras"
+        "name": "Pink corydoras",
+        "scientific_name": "Corydoras axelrodi",
+        "image": "",
+        "size": "4–5 cm (1.5–2 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Pygmy corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Corydoras_pygmaeus5333.jpg/175px-Corydoras_pygmaeus5333.jpg"
+        "scientific_name": "Corydoras pygmaeus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Corydoras_pygmaeus5333.jpg/175px-Corydoras_pygmaeus5333.jpg",
+        "size": "2.5–3.3 cm (0.98–1.30 in)",
+        "remarks": "A very peaceful species, that does not make an ideal community fish due to its small adult size. It is easily intimidated by larger tank mates and will not compete well with them for food.[10]",
+        "min_tank_size": "42.4 L (11 gal)[10]",
+        "temperature": "72 to 79 °F (22 to 26 °C)[10]",
+        "ph": "6.4 to 7.4[10]"
     },
     {
-        "name": "Sailfin corydoras"
+        "name": "Sailfin corydoras",
+        "scientific_name": "Scleromystax macropterus",
+        "image": "",
+        "size": "",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Salt and pepper catfish/corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Corydoras_habrosus.png/175px-Corydoras_habrosus.png"
+        "scientific_name": "Corydoras habrosus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Corydoras_habrosus.png/175px-Corydoras_habrosus.png",
+        "size": "2.5–3.6 cm (0.98–1.42 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Schwartz's catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Corydoras_schwartzi.jpg/175px-Corydoras_schwartzi.jpg"
+        "scientific_name": "Corydoras schwartzi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Corydoras_schwartzi.jpg/175px-Corydoras_schwartzi.jpg",
+        "size": "3.8–5.1 cm (1.5–2.0 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Spotted corydoras, longnose corydoras"
+        "name": "Spotted corydoras, longnose corydoras",
+        "scientific_name": "Corydoras ambiacus",
+        "image": "",
+        "size": "5.1–6.1 cm (2.0–2.4 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Sterba's corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Corydoras_sterbai.jpg/175px-Corydoras_sterbai.jpg"
+        "scientific_name": "Corydoras sterbai",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Corydoras_sterbai.jpg/175px-Corydoras_sterbai.jpg",
+        "size": "6.8 cm (2.7 in)[11]",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Sychr's catfish"
+        "name": "Sychr's catfish",
+        "scientific_name": "Corydoras sychri",
+        "image": "",
+        "size": "",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Tailspot corydoras"
+        "name": "Tailspot corydoras",
+        "scientific_name": "Corydoras caudimaculatus",
+        "image": "",
+        "size": "4–5 cm (1.5–2 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Threestripe corydoras, leopard catfish, false julii cory",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Corydoras_trilineatus3.jpg/175px-Corydoras_trilineatus3.jpg"
+        "scientific_name": "Corydoras trilineatus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Corydoras_trilineatus3.jpg/175px-Corydoras_trilineatus3.jpg",
+        "size": "6.1 cm (2.4 in)[12]",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
-        "name": "Xingu corydoras"
+        "name": "Xingu corydoras",
+        "scientific_name": "Corydoras xinguensis",
+        "image": "",
+        "size": "3.8–5.1 cm (1.5–2.0 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Julii corydoras",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Corydoras_julii.jpg/175px-Corydoras_julii.jpg"
+        "scientific_name": "Corydoras julii",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Corydoras_julii.jpg/175px-Corydoras_julii.jpg",
+        "size": "5.1–6.4 cm (2.0–2.5 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "",
+        "ph": ""
     },
     {
         "name": "Flagtail catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Dianema_urostriata.JPG/175px-Dianema_urostriata.JPG"
+        "scientific_name": "Dianema urostriatum",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Dianema_urostriata.JPG/175px-Dianema_urostriata.JPG",
+        "size": "12.5 centimetres (4.9 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "77–82 °F (25–28 °C)",
+        "ph": "6.0-8.0"
     },
     {
         "name": "Cascarudo",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Callichthys_callichthys.JPG/175px-Callichthys_callichthys.JPG"
+        "scientific_name": "Callichthys callichthys",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Callichthys_callichthys.JPG/175px-Callichthys_callichthys.JPG",
+        "size": "20 cm (7.9 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "64–83 °F (18–28 °C).",
+        "ph": "5.8-8.3"
     },
     {
         "name": "Spotted hoplo",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Megalechis_thoracata.jpg/175px-Megalechis_thoracata.jpg"
-    },
-    {
-        "name": "Armored suckermouth catfish (plecos, oto, and whiptail)"
-    },
-    {
-        "name": "Bristlenose pleco, bushynose pleco",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bristlenose_Catfish_700.jpg/175px-Bristlenose_Catfish_700.jpg"
-    },
-    {
-        "name": "Gold nugget pleco",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Baryancistrus-L018.jpg/175px-Baryancistrus-L018.jpg"
-    },
-    {
-        "name": "Whiptail catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Viola_%28Rineloricaria_longicauda%29_2.jpg/175px-Viola_%28Rineloricaria_longicauda%29_2.jpg"
-    },
-    {
-        "name": "Twig catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Farlowella_arcus_3.jpg/175px-Farlowella_arcus_3.jpg"
-    },
-    {
-        "name": "Panaque",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Panaque.JPG/175px-Panaque.JPG"
-    },
-    {
-        "name": "Pineapple pleco, orange cheek pleco",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pineapplepleco.JPG/175px-Pineapplepleco.JPG"
-    },
-    {
-        "name": "Common pleco, suckermouth catfish, Amazon sailfin catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Liposarcus_pardalis.jpg/175px-Liposarcus_pardalis.jpg"
-    },
-    {
-        "name": "Common pleco, suckermouth catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/SukermouthCatfish.jpg/175px-SukermouthCatfish.jpg"
-    },
-    {
-        "name": "Common pleco, suckermouth catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pterygoplichthys_pardalis_700.jpg/175px-Pterygoplichthys_pardalis_700.jpg"
-    },
-    {
-        "name": "Leopard sailfin pleco, clown sailfin pleco",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Sailfin-pleco.jpg/175px-Sailfin-pleco.jpg"
-    },
-    {
-        "name": "Zebra pleco, L-046",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hypancistrus_zebra4305.jpg/175px-Hypancistrus_zebra4305.jpg"
-    },
-    {
-        "name": "Sailfin catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Liposarcus_multiradiatus_01_ssj_20050321.jpg/175px-Liposarcus_multiradiatus_01_ssj_20050321.jpg"
-    },
-    {
-        "name": "Golden dwarf sucker, golden oto",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Otocinclus_macrospilus_2.jpg/175px-Otocinclus_macrospilus_2.jpg"
-    },
-    {
-        "name": "Zebra dwarf sucker, zebra oto",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Otocinclus_cocama.jpg/175px-Otocinclus_cocama.jpg"
-    },
-    {
-        "name": "Clown Pleco ( L104, L162, and LDA22)[18]",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clown_Pleco_in_home_aquaria.jpg/175px-Clown_Pleco_in_home_aquaria.jpg"
-    },
-    {
-        "name": "Long-whiskered catfish"
-    },
-    {
-        "name": "Bolt catfish"
-    },
-    {
-        "name": "Gold Zebra catfish"
-    },
-    {
-        "name": "Zebra shovelnose"
-    },
-    {
-        "name": "Vulture Catfish, zamurito",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Pimelodidae_Callophysus_macropterus.jpg/175px-Pimelodidae_Callophysus_macropterus.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Leiarius_marmoratus_%28juv%29.jpg/175px-Leiarius_marmoratus_%28juv%29.jpg"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Redtail catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Phractocephalus_hemioliopterus2.JPG/175px-Phractocephalus_hemioliopterus2.JPG"
-    },
-    {
-        "name": "Spotted pimelodus, pictus, pictus catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Pimelodus_pictus.jpg/175px-Pimelodus_pictus.jpg"
-    },
-    {
-        "name": "Ornate Pimelodus",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Catfish_at_the_Cali_Zoo_Aquarium.jpg/175px-Catfish_at_the_Cali_Zoo_Aquarium.jpg"
-    },
-    {
-        "name": "Sturgeon catfish"
-    },
-    {
-        "name": "Barred sorubim"
-    },
-    {
-        "name": "Tiger sorubim",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Pseudoplatystoma_tigrinum1.jpg/175px-Pseudoplatystoma_tigrinum1.jpg"
-    },
-    {
-        "name": "Firewood catfish, (planiceps) shovelnose catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Firewood_catfish.jpg/175px-Firewood_catfish.jpg"
-    },
-    {
-        "name": "Lima shovelnose catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Silure_spatule.jpg/175px-Silure_spatule.jpg"
-    },
-    {
-        "name": "Squeakers and upside-down catfish"
-    },
-    {
-        "name": "Cuckoo squeaker",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Synodontis-multipunctatus.jpg/175px-Synodontis-multipunctatus.jpg"
-    },
-    {
-        "name": "Decorated squeaker"
-    },
-    {
-        "name": "Even-Spotted squeaker",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Synodontis_petricola.jpg/175px-Synodontis_petricola.jpg"
-    },
-    {
-        "name": "Featherfin squeaker",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Synodontis_Eupterus_3.JPG/175px-Synodontis_Eupterus_3.JPG"
-    },
-    {
-        "name": "Lake Malawi syno",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Synodontis_njassae_01_ssj_20050321.jpg/175px-Synodontis_njassae_01_ssj_20050321.jpg"
-    },
-    {
-        "name": "Polka dot syno",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Synodontis_angelica.jpg/175px-Synodontis_angelica.jpg"
-    },
-    {
-        "name": "Common syno, false upside-down catfish"
-    },
-    {
-        "name": "Upside-down catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Synodontis.jpg/175px-Synodontis.jpg"
-    },
-    {
-        "name": "Other catfish"
-    },
-    {
-        "name": "Three-striped African catfish"
-    },
-    {
-        "name": "Giraffe catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Auchenoglanis_occidentalis_01_by_Line1.JPG/175px-Auchenoglanis_occidentalis_01_by_Line1.JPG"
-    },
-    {
-        "name": "Electric catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Malapterurus_electricus_1.jpg/175px-Malapterurus_electricus_1.jpg"
-    },
-    {
-        "name": "Black lancer catfish"
-    },
-    {
-        "name": "Harlequin lancer catfish"
-    },
-    {
-        "name": "Crystal-eyed catfish"
-    },
-    {
-        "name": "Asian redtail catfish"
-    },
-    {
-        "name": "Shadow catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pelteobagrus_ornatus_%284222100061%29.jpg/175px-Pelteobagrus_ornatus_%284222100061%29.jpg"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Dwarf bumblebee catfish"
-    },
-    {
-        "name": "Asian bumblebee catfish"
-    },
-    {
-        "name": "Dinema catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Belodontichthys_dinema.jpg/175px-Belodontichthys_dinema.jpg"
-    },
-    {
-        "name": "Glass catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Glaswelse.jpg/175px-Glaswelse.jpg"
-    },
-    {
-        "name": "Striped glass catfish"
-    },
-    {
-        "name": "Borneo glass catfish"
-    },
-    {
-        "name": "Striped wallago catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Wallagonia_leerii.jpg/175px-Wallagonia_leerii.jpg"
-    },
-    {
-        "name": "Chocolate frogmouth catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Chaca_bankanensis_juveniles.png/175px-Chaca_bankanensis_juveniles.png"
-    },
-    {
-        "name": "Asian banjo catfish"
-    },
-    {
-        "name": "Walking catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Clarias_batrachus_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_1.jpg/175px-Clarias_batrachus_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_1.jpg"
-    },
-    {
-        "name": "Stinging catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/%D0%9C%D0%B5%D1%88%D0%BA%D0%BE%D0%B6%D0%B0%D0%B1%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D0%BC_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/175px-%D0%9C%D0%B5%D1%88%D0%BA%D0%BE%D0%B6%D0%B0%D0%B1%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D0%BC_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG"
-    },
-    {
-        "name": "Sun catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/The_Manjakoori_%28Sun_Catfish%29_from_the_Chalakudy_River%2C_Kerala.jpg/175px-The_Manjakoori_%28Sun_Catfish%29_from_the_Chalakudy_River%2C_Kerala.jpg"
-    },
-    {
-        "name": "Iridescent shark",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Aquarium_tropical_de_Pierrefitte-Nestalas_03082018_Pangasianodon_hypophthalmus_2.jpg/175px-Aquarium_tropical_de_Pierrefitte-Nestalas_03082018_Pangasianodon_hypophthalmus_2.jpg"
-    },
-    {
-        "name": "Chao Phraya giant shark, giant pangasius",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pangasiidae_-_Pangasius_sanitwongsei.jpg/175px-Pangasiidae_-_Pangasius_sanitwongsei.jpg"
-    },
-    {
-        "name": "Colombian shark catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/MA_Luisenpark_Sciades_seemanni.jpg/175px-MA_Luisenpark_Sciades_seemanni.jpg"
-    },
-    {
-        "name": "Blue whale catfish"
-    },
-    {
-        "name": "Banjo catfish"
-    },
-    {
-        "name": "Striped raphael catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Platydoras_costatus_5_%28Piotr_Kuczynski%29.jpg/175px-Platydoras_costatus_5_%28Piotr_Kuczynski%29.jpg"
-    },
-    {
-        "name": "Spotted raphael catfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dornwels.JPG/175px-Dornwels.JPG"
-    },
-    {
-        "name": "Bottlenose catfish"
-    },
-    {
-        "name": "Gulper catfish"
-    },
-    {
-        "name": "Midnight catfish"
-    },
-    {
-        "name": "Oil catfish"
-    },
-    {
-        "name": "Jaguar catfish"
-    },
-    {
-        "name": "Pygmy driftwood catfish"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Tetras"
-    },
-    {
-        "name": "Black phantom tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Hyphessobrycon_megalopterus_Porte_Doree.jpg/175px-Hyphessobrycon_megalopterus_Porte_Doree.jpg"
-    },
-    {
-        "name": "Black neon tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Black_neon_tetra.jpg/175px-Black_neon_tetra.jpg"
-    },
-    {
-        "name": "Black tetra, skirt tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Adulter_Trauermantelsalmer-Gymnocorymbus_ternetzi.jpg/175px-Adulter_Trauermantelsalmer-Gymnocorymbus_ternetzi.jpg"
-    },
-    {
-        "name": "Black morpho tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Crenuchidae_Poeciliocharax_weitzmani.jpg/175px-Crenuchidae_Poeciliocharax_weitzmani.jpg"
-    },
-    {
-        "name": "Bleeding heart tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kirschflecksalmler-W.jpg/175px-Kirschflecksalmler-W.jpg"
-    },
-    {
-        "name": "Bloodfin tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Aphyocharax_anisitsi_2.jpg/175px-Aphyocharax_anisitsi_2.jpg"
-    },
-    {
-        "name": "Blue tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Boehlkea_fredcochui_malefemale.jpg/175px-Boehlkea_fredcochui_malefemale.jpg"
-    },
-    {
-        "name": "Bucktooth tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/DSCN6064_%286260740474%29.jpg/175px-DSCN6064_%286260740474%29.jpg"
-    },
-    {
-        "name": "Buenos Aires tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hyphessobrycon_anisitsi.jpg/175px-Hyphessobrycon_anisitsi.jpg"
-    },
-    {
-        "name": "Cardinal tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Paracheirodon_cardinalis.JPG/175px-Paracheirodon_cardinalis.JPG"
-    },
-    {
-        "name": "Cave tetra, blind tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Astyanax_mexicanus%2C_Palmiarnia_Pozna%C5%84ska.jpg/175px-Astyanax_mexicanus%2C_Palmiarnia_Pozna%C5%84ska.jpg"
-    },
-    {
-        "name": "Diamond tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Brillantsalmler.jpg/175px-Brillantsalmler.jpg"
-    },
-    {
-        "name": "Ember tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/AKT_1430bq.jpg/175px-AKT_1430bq.jpg"
-    },
-    {
-        "name": "Emperor tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Emperor_tetra.jpg/175px-Emperor_tetra.jpg"
-    },
-    {
-        "name": "Flame tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Roter_von_Rio_-_Hyphessobrycon_flammeus.jpg/175px-Roter_von_Rio_-_Hyphessobrycon_flammeus.jpg"
-    },
-    {
-        "name": "Garnet tetra, pretty tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/H.pulcher_IMG_3268.jpg/175px-H.pulcher_IMG_3268.jpg"
-    },
-    {
-        "name": "Glass bloodfin tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Bloodfin_Glass_Tetra.jpg/175px-Bloodfin_Glass_Tetra.jpg"
-    },
-    {
-        "name": "Glowlight tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tetra_Glowlight_cropped.jpg/175px-Tetra_Glowlight_cropped.jpg"
-    },
-    {
-        "name": "Golden pristella tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Pristella_maxillaris.jpg/175px-Pristella_maxillaris.jpg"
-    },
-    {
-        "name": "Green neon tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Paracheirodon_simulans.jpg/175px-Paracheirodon_simulans.jpg"
-    },
-    {
-        "name": "Head and tail light tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Head-%26-Tail-Light-Tetra.jpg/175px-Head-%26-Tail-Light-Tetra.jpg"
-    },
-    {
-        "name": "January tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Hemigrammus_hyanuary_thomnight_001.jpg/175px-Hemigrammus_hyanuary_thomnight_001.jpg"
-    },
-    {
-        "name": "Lemon tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Hyphessobrycon_pulchripinnis.jpg/175px-Hyphessobrycon_pulchripinnis.jpg"
-    },
-    {
-        "name": "Neon tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Neonka_obecna_paracheirodon_innesi.jpg/175px-Neonka_obecna_paracheirodon_innesi.jpg"
-    },
-    {
-        "name": "Ornate tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Schmucksalmler_Hyphessobrycon_bentosi.jpg/175px-Schmucksalmler_Hyphessobrycon_bentosi.jpg"
-    },
-    {
-        "name": "Penguin tetra, blackline penguinfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Thayeria_boehlkei.jpg/175px-Thayeria_boehlkei.jpg"
-    },
-    {
-        "name": "Red Eye tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Red_eye_tetra.jpg/175px-Red_eye_tetra.jpg"
-    },
-    {
-        "name": "Red phantom tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Megalamphodussweglesi01.jpg/175px-Megalamphodussweglesi01.jpg"
-    },
-    {
-        "name": "Rosy tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Male_Rosy_Tetra.JPG/175px-Male_Rosy_Tetra.JPG"
-    },
-    {
-        "name": "Royal tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/05.Inpaichtys_kerri.JPG/175px-05.Inpaichtys_kerri.JPG"
-    },
-    {
-        "name": "Rummy-nose tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Petitella_rhodostomus_%28Hemigrammus_rhodostomus%29%2C_2013.jpg/175px-Petitella_rhodostomus_%28Hemigrammus_rhodostomus%29%2C_2013.jpg"
-    },
-    {
-        "name": "Splash tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Copella_arnoldi.jpg/175px-Copella_arnoldi.jpg"
-    },
-    {
-        "name": "Serpae tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Serpae_tetra.JPG/175px-Serpae_tetra.JPG"
-    },
-    {
-        "name": "Silvertip tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Kobbertetra_Hasemania_nana.jpg/175px-Kobbertetra_Hasemania_nana.jpg"
-    },
-    {
-        "name": "X-ray tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Pristella_tetra1.jpg/175px-Pristella_tetra1.jpg"
-    },
-    {
-        "name": "Congo tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Phenacogrammus_interruptus_%28aka%29.jpg/175px-Phenacogrammus_interruptus_%28aka%29.jpg"
-    },
-    {
-        "name": "Jellybean tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Ladigesia_roloffi_-_AquaPorteDoree_06.JPG/175px-Ladigesia_roloffi_-_AquaPorteDoree_06.JPG"
-    },
-    {
-        "name": "Long-fin tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Langflossensalmler_Brycinus_longipinnis_Tierpark_Hellabrunn-2.jpg/175px-Langflossensalmler_Brycinus_longipinnis_Tierpark_Hellabrunn-2.jpg"
-    },
-    {
-        "name": "Niger tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arnoldichthys_spilopterus.JPG/175px-Arnoldichthys_spilopterus.JPG"
-    },
-    {
-        "name": "Yellow-tailed Congo tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Alestopetersius_caudalis.jpg/175px-Alestopetersius_caudalis.jpg"
-    },
-    {
-        "name": "Hatchetfish"
-    },
-    {
-        "name": "Common hatchetfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Gasteropelecus_sternicla.JPG/175px-Gasteropelecus_sternicla.JPG"
-    },
-    {
-        "name": "Marbled hatchetfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Beilbauchsalmler.jpg/175px-Beilbauchsalmler.jpg"
-    },
-    {
-        "name": "Black-winged hatchetfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/BlackWingedHatchetfish.jpg/175px-BlackWingedHatchetfish.jpg"
-    },
-    {
-        "name": "Pygmy hatchetfish"
-    },
-    {
-        "name": "Pencil fishes"
-    },
-    {
-        "name": "Golden pencilfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Nannostomus-beckfordi.jpg/175px-Nannostomus-beckfordi.jpg"
-    },
-    {
-        "name": "Hockeystick pencilfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Nannostomus_eques.jpg/175px-Nannostomus_eques.jpg"
-    },
-    {
-        "name": "Barred pencilfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Nannostomus-espei.jpg/175px-Nannostomus-espei.jpg"
-    },
-    {
-        "name": "Dwarf pencilfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nannostomus_marginatus%2C_adultes_M%C3%A4nnchen.jpg/175px-Nannostomus_marginatus%2C_adultes_M%C3%A4nnchen.jpg"
-    },
-    {
-        "name": "Coral-red pencilfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Red_Pencilfish.jpg/175px-Red_Pencilfish.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Nannostomus_nigrotaeniatus_-_AquariumPorteDoree_02.jpg/175px-Nannostomus_nigrotaeniatus_-_AquariumPorteDoree_02.jpg"
-    },
-    {
-        "name": "Three-lined pencilfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Nannostomustrifasciatus.jpg/175px-Nannostomustrifasciatus.jpg"
-    },
-    {
-        "name": "One-lined Pencilfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Nannostomus_unifasciatus.jpg/175px-Nannostomus_unifasciatus.jpg"
-    },
-    {
-        "name": "Serrasalminae (pacus, piranhas, and silver dollars)"
-    },
-    {
-        "name": "Silver dollar",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Silver_Dollar_Metynnis_argenteus.jpg/175px-Silver_Dollar_Metynnis_argenteus.jpg"
-    },
-    {
-        "name": "Schreitmuller's metynnis",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Metynnis_hypsauchen_small.jpg/175px-Metynnis_hypsauchen_small.jpg"
-    },
-    {
-        "name": "Red-bellied pacu",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Red_Pacu.JPG/175px-Red_Pacu.JPG"
-    },
-    {
-        "name": "Red piranha",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Gregory_Moine_-_Red_bellied_Piranha_%28by%29.jpg/175px-Gregory_Moine_-_Red_bellied_Piranha_%28by%29.jpg"
-    },
-    {
-        "name": "Disk tetra",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Myleus_schomburgkii.jpg/175px-Myleus_schomburgkii.jpg"
-    },
-    {
-        "name": "Other Characins"
-    },
-    {
-        "name": "African pike characin",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Hepsetus_odoe.jpg/175px-Hepsetus_odoe.jpg"
-    },
-    {
-        "name": "Goliath tigerfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Hydrocynus_goliath.jpg/175px-Hydrocynus_goliath.jpg"
-    },
-    {
-        "name": "Hujeta gar",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ctenolucius_hujeta_3.jpg/175px-Ctenolucius_hujeta_3.jpg"
-    },
-    {
-        "name": "Kissing prochilodus, flagtail Prochilodus",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Prochilodus_insignis_-_Zoo_Frankfurt_1.jpg/175px-Prochilodus_insignis_-_Zoo_Frankfurt_1.jpg"
-    },
-    {
-        "name": "Marbled headstander",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Abramites_hypselonotus.jpg/175px-Abramites_hypselonotus.jpg"
-    },
-    {
-        "name": "Banded leporinus",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Banded_Leporinus_%28Leporinus_fasciatus%29_%287124562451%29.jpg/175px-Banded_Leporinus_%28Leporinus_fasciatus%29_%287124562451%29.jpg"
-    },
-    {
-        "name": "Striped headstander",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Anostomus_anostomus%2C_striped_headstander.jpg/175px-Anostomus_anostomus%2C_striped_headstander.jpg"
-    },
-    {
-        "name": "Six-banded distichodus",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Distichodontidae_-_Distichodus_sexfasciatus.JPG/175px-Distichodontidae_-_Distichodus_sexfasciatus.JPG"
-    },
-    {
-        "name": "Payara",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Hydrolycus_scomberoides_by_OpenCage.jpg/175px-Hydrolycus_scomberoides_by_OpenCage.jpg"
-    },
-    {
-        "name": "Pink-tail chalceus",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Chalceus_macrolepidotus.jpg/175px-Chalceus_macrolepidotus.jpg"
-    },
-    {
-        "name": "Red wolf fish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Erythrinus_erythrinus.jpg/175px-Erythrinus_erythrinus.jpg"
-    },
-    {
-        "name": "Red tail barracuda",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Acestrorhynchus_falcatus_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016.jpg/175px-Acestrorhynchus_falcatus_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016.jpg"
-    },
-    {
-        "name": "Spotted headstander",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Chilodus_punctatus.jpg/175px-Chilodus_punctatus.jpg"
-    },
-    {
-        "name": "Lake Malawi cichlids"
-    },
-    {
-        "name": "Sunshine peacock cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Aulonocara_hansbaenschi.jpg/175px-Aulonocara_hansbaenschi.jpg"
-    },
-    {
-        "name": "Pale usisya aulonocara",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Aulonocara_steveni_Usisya.jpg/175px-Aulonocara_steveni_Usisya.jpg"
-    },
-    {
-        "name": "Red fin hap",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Copadichromis_borleyi2.jpg/175px-Copadichromis_borleyi2.jpg"
-    },
-    {
-        "name": "Eureka red peacock",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Aulonocara_jacobfreigi.jpg/175px-Aulonocara_jacobfreigi.jpg"
-    },
-    {
-        "name": "Spilo"
-    },
-    {
-        "name": "Blue dolphin cichlid, lumphead cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cyrtocara_moorii.jpg/175px-Cyrtocara_moorii.jpg"
-    },
-    {
-        "name": "Afra cichlid, dogtooth cichild",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cynotilapia_afra.jpg/175px-Cynotilapia_afra.jpg"
-    },
-    {
-        "name": "Rusty cichlid, lavender cichild",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Iodotropheus_sprengerae.jpg/175px-Iodotropheus_sprengerae.jpg"
-    },
-    {
-        "name": "Fuelleborn's cichlid, Blue mbuna",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Labeotropheus_fuelleborni_crop.png/175px-Labeotropheus_fuelleborni_crop.png"
-    },
-    {
-        "name": "Electric yellow cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Electric_Yellow_Lab_Cichlid.jpg/175px-Electric_Yellow_Lab_Cichlid.jpg"
-    },
-    {
-        "name": "Electric blue cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fryeri2.jpg/175px-Fryeri2.jpg"
-    },
-    {
-        "name": "Malawi eyebiter",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Cichlidae_-_Dimidiochromis_compressiceps.JPG/175px-Cichlidae_-_Dimidiochromis_compressiceps.JPG"
-    },
-    {
-        "name": "Hongi, Red-top kimpumpa",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Labidochromis_sp_hongi.jpg/175px-Labidochromis_sp_hongi.jpg"
-    },
-    {
-        "name": "Yellow Top Mbamba"
-    },
-    {
-        "name": "Auratus cichlid, Malawi golden cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Melanochromis_auratus_%28female%29.jpg/175px-Melanochromis_auratus_%28female%29.jpg"
-    },
-    {
-        "name": "Chipokee cichlid"
-    },
-    {
-        "name": "Blue johanni cichlid, Maingano",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Melanochromis_cyaneorhabdos.jpg/175px-Melanochromis_cyaneorhabdos.jpg"
-    },
-    {
-        "name": "Pearl of Likoma",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Melanochromis_joanjohnsonae.jpg/175px-Melanochromis_joanjohnsonae.jpg"
-    },
-    {
-        "name": "Aurora"
-    },
-    {
-        "name": "Red zebra cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pyszczak.jpg/175px-Pyszczak.jpg"
-    },
-    {
-        "name": "Cobalt blue cichlid, cobalt zebra cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cobaltblue1.jpg/175px-Cobaltblue1.jpg"
-    },
-    {
-        "name": "Kenyi cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Maylandia_lombardoi.jpg/175px-Maylandia_lombardoi.jpg"
-    },
-    {
-        "name": "Fusco",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nimbochromis_Fuscotaeniatus_male.jpg/175px-Nimbochromis_Fuscotaeniatus_male.jpg"
-    },
-    {
-        "name": "Livingston's cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Adult_male_livingstonii.png/175px-Adult_male_livingstonii.png"
-    },
-    {
-        "name": "Kaligono",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Polystigma.jpg/175px-Polystigma.jpg"
-    },
-    {
-        "name": "Venustus cichlid, giraffe cichild",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Nimbochromis_venustus.JPG/175px-Nimbochromis_venustus.JPG"
-    },
-    {
-        "name": "Red empress cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Protomelas_taeniolatus_by_Derek_Ramsey.jpg/175px-Protomelas_taeniolatus_by_Derek_Ramsey.jpg"
-    },
-    {
-        "name": "Bumblebee cichlid, hornet cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Pseudotropheus_Crabo_Male.JPG/175px-Pseudotropheus_Crabo_Male.JPG"
-    },
-    {
-        "name": "Yellow-tail acei",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Yellow_tailed_acei.jpg/175px-Yellow_tailed_acei.jpg"
-    },
-    {
-        "name": "Johanni cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Melanochromis_johanni_Male.jpg/175px-Melanochromis_johanni_Male.jpg"
-    },
-    {
-        "name": "Dwarf Mbuna",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Pseudotropheus_demasoni.jpg/175px-Pseudotropheus_demasoni.jpg"
-    },
-    {
-        "name": "Saulosi",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Pseudotropheus_saulosi.jpg/175px-Pseudotropheus_saulosi.jpg"
-    },
-    {
-        "name": "Malawi barracuda"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Lake Tanganyika cichlids"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Benthochromis_tricoti.jpg/175px-Benthochromis_tricoti.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/DKoehl_Boulengerochromis_microlepis.jpg/175px-DKoehl_Boulengerochromis_microlepis.jpg"
-    },
-    {
-        "name": "Frontosa cichild",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cyphotilapia_frontosa_by_Ark.jpg/175px-Cyphotilapia_frontosa_by_Ark.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Cyathopharynx.JPG/175px-Cyathopharynx.JPG"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Variabilichromis_moorii_en_aquarium..jpg/175px-Variabilichromis_moorii_en_aquarium..jpg"
-    },
-    {
-        "name": "Frontosa cichild",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Cyphotilapia_gibberosa_-_GRB.jpg/175px-Cyphotilapia_gibberosa_-_GRB.jpg"
-    },
-    {
-        "name": "Julie cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Julidochromis_dickfeldi.jpg/175px-Julidochromis_dickfeldi.jpg"
-    },
-    {
-        "name": "Masked Julie",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Schachbrett-Schlankcichlide.jpg/175px-Schachbrett-Schlankcichlide.jpg"
-    },
-    {
-        "name": "Golden Julie",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Julidochromis_ornatus_in_Ouwehands_Dierenpark.jpg/175px-Julidochromis_ornatus_in_Ouwehands_Dierenpark.jpg"
-    },
-    {
-        "name": "Julie cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Julidochromis_regani_adult.jpg/175px-Julidochromis_regani_adult.jpg"
-    },
-    {
-        "name": "Julie cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/J_gombe1.jpg/175px-J_gombe1.jpg"
-    },
-    {
-        "name": "Herring cichlid, sardine cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Cyprichromis_leptosoma.jpg/175px-Cyprichromis_leptosoma.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ectodus_descampsii.jpg/175px-Ectodus_descampsii.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Chalinochromis_popelini.jpg/175px-Chalinochromis_popelini.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Neolamprologus_multifasciatus_2.jpg/175px-Neolamprologus_multifasciatus_2.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Lamprologus_ocellatus.jpg/175px-Lamprologus_ocellatus.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Neolamprologus_similis_2060.jpg/175px-Neolamprologus_similis_2060.jpg"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Lyretail cichlid, fairy cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Neolamprologus_brichardi.jpg/175px-Neolamprologus_brichardi.jpg"
-    },
-    {
-        "name": "Lemon cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neolamprologus_leleupi_2.jpg/175px-Neolamprologus_leleupi_2.jpg"
-    },
-    {
-        "name": "Featherfin"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Tropheus_duboisi.jpg/175px-Tropheus_duboisi.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TropheusspRed200.jpg/175px-TropheusspRed200.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Tropheus_polli.jpg/175px-Tropheus_polli.jpg"
-    },
-    {
-        "name": "Lake Victoria cichlids"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Zebra obliquidens"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Allauad's haplo",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Astatoreochromis-alluaudi-LakeRweru-GB.jpg/175px-Astatoreochromis-alluaudi-LakeRweru-GB.jpg"
-    },
-    {
-        "name": "Hippo Point Salmon"
-    },
-    {
-        "name": "Flameback",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pundamilia_%28Haplochromis%29_nyererei_male.jpg/175px-Pundamilia_%28Haplochromis%29_nyererei_male.jpg"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Miscellaneous African cichlids (non-Rift Lake)"
-    },
-    {
-        "name": "African butterfly cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Anomalochromis_thomasi_2.jpg/175px-Anomalochromis_thomasi_2.jpg"
-    },
-    {
-        "name": "Jewel cichlid, two-spotted jewel cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Hemichromis_bimaculatus1.jpg/175px-Hemichromis_bimaculatus1.jpg"
-    },
-    {
-        "name": "Lionhead cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Steatocranus_casuarius.jpg/175px-Steatocranus_casuarius.jpg"
-    },
-    {
-        "name": "Lifalili jewel cichlid, blood-red jewel cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Cichlidae_-_Hemichromis_lifalili.JPG/175px-Cichlidae_-_Hemichromis_lifalili.JPG"
-    },
-    {
-        "name": "Kribensis, krib",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Pelvicachromis_pulcher_%28male%29_02.jpg/175px-Pelvicachromis_pulcher_%28male%29_02.jpg"
-    },
-    {
-        "name": "Kribensis, krib",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Pelvicachromis_taeniatus.JPG/175px-Pelvicachromis_taeniatus.JPG"
-    },
-    {
-        "name": "Guenther's Mouthbrooder",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Chromidotilapia_guntheri_Bama_BF_cpl_fry2.jpg/175px-Chromidotilapia_guntheri_Bama_BF_cpl_fry2.jpg"
-    },
-    {
-        "name": "Dwarf cichlids (apistogrammas, rams and others)"
-    },
-    {
-        "name": "Agassiz's dwarf cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Apistogramma_Agassizii.jpg/175px-Apistogramma_Agassizii.jpg"
-    },
-    {
-        "name": "Zebra acara",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ivanacara_adoketa5265.jpg/175px-Ivanacara_adoketa5265.jpg"
-    },
-    {
-        "name": "Yellow dwarf cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apistogramma_borellii.jpg/175px-Apistogramma_borellii.jpg"
-    },
-    {
-        "name": "Cockatoo dwarf cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Cacatuoides.JPG/175px-Cacatuoides.JPG"
-    },
-    {
-        "name": "Panda dwarf cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Apistogramma_nijsseni_%28f%29.jpg/175px-Apistogramma_nijsseni_%28f%29.jpg"
-    },
-    {
-        "name": "Three-Stripe Dwarf Cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Apistogramma_trifasciata.jpg/175px-Apistogramma_trifasciata.jpg"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Two-Stripe Dwarf Cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Apistogramma_bitaeniata.jpg/175px-Apistogramma_bitaeniata.jpg"
-    },
-    {
-        "name": "Checkerboard Cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Dicrossus_filamentosus_male.png/175px-Dicrossus_filamentosus_male.png"
-    },
-    {
-        "name": "Blue ram, German ram, German Ramirezi",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Antennebaarsje.jpg/175px-Antennebaarsje.jpg"
-    },
-    {
-        "name": "Bolivian ram",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Male_altispinosa_dwarf_cichlid_%283229597033%29.jpg/175px-Male_altispinosa_dwarf_cichlid_%283229597033%29.jpg"
-    },
-    {
-        "name": "Dwarf flag cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Laetacara_curviceps.jpg/175px-Laetacara_curviceps.jpg"
-    },
-    {
-        "name": "Central American cichlids"
-    },
-    {
-        "name": "Midas cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/D%C3%A4hlh%C3%B6lzli_-_Zitronen_Buntbarsch_3.jpg/175px-D%C3%A4hlh%C3%B6lzli_-_Zitronen_Buntbarsch_3.jpg"
-    },
-    {
-        "name": "Poor man's tropheus",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Neetroplus_nematopus.png/175px-Neetroplus_nematopus.png"
-    },
-    {
-        "name": "Red devil cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Amphilophus_labiatum%2C_weiblich.jpg/175px-Amphilophus_labiatum%2C_weiblich.jpg"
-    },
-    {
-        "name": "Firemouth cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Feuermaulbuntbarsch.jpg/175px-Feuermaulbuntbarsch.jpg"
-    },
-    {
-        "name": "Jack Dempsey cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cichlasoma_octofasciata.jpg/175px-Cichlasoma_octofasciata.jpg"
-    },
-    {
-        "name": "Jaguar cichlid, managuense cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Parachromis_managuensis_2012_G1.jpg/175px-Parachromis_managuensis_2012_G1.jpg"
-    },
-    {
-        "name": "Mayan cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Mayan10a.jpg/175px-Mayan10a.jpg"
-    },
-    {
-        "name": "Convict cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Archocentrus_nigrofasciatus_female.jpg/175px-Archocentrus_nigrofasciatus_female.jpg"
-    },
-    {
-        "name": "T-bar cichlid"
-    },
-    {
-        "name": "Wolf cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Parachromis_dovii_guapote.JPG/175px-Parachromis_dovii_guapote.JPG"
-    },
-    {
-        "name": "Texas cichlid, Rio Grande cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Herichthys_cyanoguttatum_%28Rio_Grande_Cichlid%29.jpg/175px-Herichthys_cyanoguttatum_%28Rio_Grande_Cichlid%29.jpg"
-    },
-    {
-        "name": "South American cichlids"
-    },
-    {
-        "name": "Green terror",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Andinoacara_rivulatus_-_20061112.jpg/175px-Andinoacara_rivulatus_-_20061112.jpg"
-    },
-    {
-        "name": "Blue acara",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Aequidens_pulcher.jpg/175px-Aequidens_pulcher.jpg"
-    },
-    {
-        "name": "Thread-finned acara",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Acarichthys_heckeli.JPG/175px-Acarichthys_heckeli.JPG"
-    },
-    {
-        "name": "Eartheater cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Cichlidae_-_Geophagus_altifrons.JPG/175px-Cichlidae_-_Geophagus_altifrons.JPG"
-    },
-    {
-        "name": "Demon eartheater",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Satanoperca--jurupari.jpg/175px-Satanoperca--jurupari.jpg"
-    },
-    {
-        "name": "Greenstreaked Eartheater, cupid cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Biotodoma_cupido.png/175px-Biotodoma_cupido.png"
-    },
-    {
-        "name": "Keyhole cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Akara_z_Maroni.jpg/175px-Akara_z_Maroni.jpg"
-    },
-    {
-        "name": "Flag cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Mesonauta_festivus.jpg/175px-Mesonauta_festivus.jpg"
-    },
-    {
-        "name": "Angelfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Freshwater_angelfish_biodome.jpg/175px-Freshwater_angelfish_biodome.jpg"
-    },
-    {
-        "name": "Altum angelfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pterophyllum_altum.jpg/175px-Pterophyllum_altum.jpg"
-    },
-    {
-        "name": "Spotted angelfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Pterophyllum_leopoldi.jpg/175px-Pterophyllum_leopoldi.jpg"
-    },
-    {
-        "name": "Common discus, red discus",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Discus_heckel.jpg/175px-Discus_heckel.jpg"
-    },
-    {
-        "name": "Blue discus, green discus",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_Discus.jpg/175px-Blue_Discus.jpg"
-    },
-    {
-        "name": "Oscar",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Astronotus_ocellatus_-_side_%28aka%29.jpg/175px-Astronotus_ocellatus_-_side_%28aka%29.jpg"
-    },
-    {
-        "name": "Chocolate cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Hypselecara_temporalis.jpg/175px-Hypselecara_temporalis.jpg"
-    },
-    {
-        "name": "Severum",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Heros_severus.JPG/175px-Heros_severus.JPG"
-    },
-    {
-        "name": "Uaru, waroo",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Uaru.jpg/175px-Uaru.jpg"
-    },
-    {
-        "name": "Zebra Pike Cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Crenicichla.jpg/175px-Crenicichla.jpg"
-    },
-    {
-        "name": "Butterfly peacock bass",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cichla_ocellaris_Dvur_zoo_1.jpg/175px-Cichla_ocellaris_Dvur_zoo_1.jpg"
-    },
-    {
-        "name": "Orinoco peacock bass",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cichla_orinocensis_203639774.jpg/175px-Cichla_orinocensis_203639774.jpg"
-    },
-    {
-        "name": "Speckled peacock bass",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Cichla_temensis.jpg/175px-Cichla_temensis.jpg"
-    },
-    {
-        "name": "Other cichlids"
-    },
-    {
-        "name": "Canara pearlspot"
-    },
-    {
-        "name": "Green chromide",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Etroplus_suratensis.jpg/175px-Etroplus_suratensis.jpg"
-    },
-    {
-        "name": "Orange chromide",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Etroplus_Maculatus.JPG/175px-Etroplus_Maculatus.JPG"
-    },
-    {
-        "name": "Pinstripe damba",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Cichlidae_-_Paretroplus_menarambo.JPG/175px-Cichlidae_-_Paretroplus_menarambo.JPG"
-    },
-    {
-        "name": "Blood parrot cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/BloodParrot.jpg/175px-BloodParrot.jpg"
-    },
-    {
-        "name": "Flowerhorn cichlid",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flowerhorn.jpg/175px-Flowerhorn.jpg"
-    },
-    {
-        "name": "Barbs"
-    },
-    {
-        "name": "Arulius barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dawkinsia_arulius_-Marcus_Knight.jpg/175px-Dawkinsia_arulius_-Marcus_Knight.jpg"
-    },
-    {
-        "name": "Bigspot barb, Duncker's barb"
-    },
-    {
-        "name": "Black ruby barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Black_Ruby_Barb_700.jpg/175px-Black_Ruby_Barb_700.jpg"
-    },
-    {
-        "name": "Cherry barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Male_Cherry_Barb_700.jpg/175px-Male_Cherry_Barb_700.jpg"
-    },
-    {
-        "name": "Clipper barb"
-    },
-    {
-        "name": "Clown barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Clownbarbe_2.jpg/175px-Clownbarbe_2.jpg"
-    },
-    {
-        "name": "Denison's barb, red line torpedo barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Puntius_denisonii_1.jpg/175px-Puntius_denisonii_1.jpg"
-    },
-    {
-        "name": "Gold barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Brokat.jpg/175px-Brokat.jpg"
-    },
-    {
-        "name": "Golden barb"
-    },
-    {
-        "name": "Greenstripe barb"
-    },
-    {
-        "name": "Indian Glass Barb"
-    },
-    {
-        "name": "Melon barb"
-    },
-    {
-        "name": "Odessa barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Pethia_padamya_-_male_-_AquaPorteDoree_01.JPG/175px-Pethia_padamya_-_male_-_AquaPorteDoree_01.JPG"
-    },
-    {
-        "name": "Onespot barb"
-    },
-    {
-        "name": "Panda barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Pandabarben.jpg/175px-Pandabarben.jpg"
-    },
-    {
-        "name": "Pool barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Puntius_sophore_2.jpg/175px-Puntius_sophore_2.jpg"
-    },
-    {
-        "name": "Partipentazona barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Puntius_partipentazona_FOWLER.jpg/175px-Puntius_partipentazona_FOWLER.jpg"
-    },
-    {
-        "name": "Rosy barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Male_Rosy_Barb.gif/175px-Male_Rosy_Barb.gif"
-    },
-    {
-        "name": "Shortfin barb"
-    },
-    {
-        "name": "Snakeskin barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Puntius_rhomboocellatus.jpg/175px-Puntius_rhomboocellatus.jpg"
-    },
-    {
-        "name": "Spottedsail barb, dwarf barb"
-    },
-    {
-        "name": "Swamp barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Puntius_chola.jpg/175px-Puntius_chola.jpg"
-    },
-    {
-        "name": "Ticto barb"
-    },
-    {
-        "name": "Tic-tac-toe barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/PuntiusStoliczkanus.jpg/175px-PuntiusStoliczkanus.jpg"
-    },
-    {
-        "name": "Tiger barb, sumatra barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tigerbarbe_Puntius_tetrazona.jpg/175px-Tigerbarbe_Puntius_tetrazona.jpg"
-    },
-    {
-        "name": "Spanner barb, t-barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Puntius_lateristriga.jpg/175px-Puntius_lateristriga.jpg"
-    },
-    {
-        "name": "Fiveband barb, pentazona barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Desmopuntius_hexazona.jpg/175px-Desmopuntius_hexazona.jpg"
-    },
-    {
-        "name": "Checker barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Puntius_oligolepis.jpg/175px-Puntius_oligolepis.jpg"
-    },
-    {
-        "name": "Tinfoil barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Tinfoil_barbs_01.jpg/175px-Tinfoil_barbs_01.jpg"
-    },
-    {
-        "name": "Other cyprinids"
-    },
-    {
-        "name": "Bala shark",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Balantiocheilos_melanopterus.JPG/175px-Balantiocheilos_melanopterus.JPG"
-    },
-    {
-        "name": "Black shark",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Black_Sharkminnow_%28Labeo_chrysophekadion%29_%288683050709%29.jpg/175px-Black_Sharkminnow_%28Labeo_chrysophekadion%29_%288683050709%29.jpg"
-    },
-    {
-        "name": "Siamese algae eater, fringe barb",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Crossocheilus_siamensis.jpg/175px-Crossocheilus_siamensis.jpg"
-    },
-    {
-        "name": "Flying fox (fish)",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Epalzeorhynchos_kalopterus.jpg/175px-Epalzeorhynchos_kalopterus.jpg"
-    },
-    {
-        "name": "Red-tailed black shark",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Epalzeorhynchos_bicolor2.jpg/175px-Epalzeorhynchos_bicolor2.jpg"
-    },
-    {
-        "name": "Rainbow shark",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Fransenlipper.JPG/175px-Fransenlipper.JPG"
-    },
-    {
-        "name": "Cambodian log sucker, false Siamese algae eater",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Crossocheilus_siamensis_pl.jpg/175px-Crossocheilus_siamensis_pl.jpg"
-    },
-    {
-        "name": "algae eater",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Gyrinocheilus_%28Chinese_Algae_Eater%29_in_Aquarium.jpg/175px-Gyrinocheilus_%28Chinese_Algae_Eater%29_in_Aquarium.jpg"
-    },
-    {
-        "name": "Rasboras"
-    },
-    {
-        "name": "Chili rasbora",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Boraras_brigittae.jpg/175px-Boraras_brigittae.jpg"
-    },
-    {
-        "name": "Espei rasbora"
-    },
-    {
-        "name": "Harlequin rasbora",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Trigonostigma_heteromorpha1.jpg/175px-Trigonostigma_heteromorpha1.jpg"
-    },
-    {
-        "name": "Glowlight rasbora",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Trigonostigma_hengeli.jpg/175px-Trigonostigma_hengeli.jpg"
-    },
-    {
-        "name": "Red-striped rasbora",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Trigonopoma_pauciperforatum_female.png/175px-Trigonopoma_pauciperforatum_female.png"
-    },
-    {
-        "name": "Dwarf rasbora",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Boraras_Maculata.jpg/175px-Boraras_Maculata.jpg"
-    },
-    {
-        "name": "Eyespot rasbora",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Rasbora_dorsiocellata.jpg/175px-Rasbora_dorsiocellata.jpg"
-    },
-    {
-        "name": "Brilliant rasbora",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Rasbora_einthovenii.jpg/175px-Rasbora_einthovenii.jpg"
-    },
-    {
-        "name": "Clown rasbora",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Rasbora_kalochroma.jpg/175px-Rasbora_kalochroma.jpg"
-    },
-    {
-        "name": "Scissortail rasbora",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Rasbora_trilineata.jpg/175px-Rasbora_trilineata.jpg"
-    },
-    {
-        "name": "Volcano rasbora",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rasbora_vulcanus_pair.png/175px-Rasbora_vulcanus_pair.png"
-    },
-    {
-        "name": "Blackline rasbora, red-tailed rasbora",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Redtail.JPG/175px-Redtail.JPG"
-    },
-    {
-        "name": "Danios and other danionins"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sundadanio_cf._axelrodi.jpg/175px-Sundadanio_cf._axelrodi.jpg"
-    },
-    {
-        "name": "Pearl danio",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Danio_albolineatus.jpg/175px-Danio_albolineatus.jpg"
-    },
-    {
-        "name": "Celestial Pearl danio",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Danio_margaritatus_%28zoom%29_2.jpg/175px-Danio_margaritatus_%28zoom%29_2.jpg"
-    },
-    {
-        "name": "Bengal danio, Sind danio"
-    },
-    {
-        "name": "Giant danio",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Devario_aequipinnatus.JPG/175px-Devario_aequipinnatus.JPG"
-    },
-    {
-        "name": "Malabar danio",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Danio_sp.jpg/175px-Danio_sp.jpg"
-    },
-    {
-        "name": "Queen danio"
-    },
-    {
-        "name": "Spotted danio",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Danio_nigrofasciatus.jpg/175px-Danio_nigrofasciatus.jpg"
-    },
-    {
-        "name": "Turquoise danio",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Danio_kerri.jpg/175px-Danio_kerri.jpg"
-    },
-    {
-        "name": "Zebra danio",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Zebrafisch.jpg/175px-Zebrafisch.jpg"
-    },
-    {
-        "name": "Cold-water cyprinids"
-    },
-    {
-        "name": "Goldfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Goldfish3.jpg/175px-Goldfish3.jpg"
-    },
-    {
-        "name": "Koi, common carp",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Ojiya_Nishikigoi_no_Sato_ac_%283%29.jpg/175px-Ojiya_Nishikigoi_no_Sato_ac_%283%29.jpg"
-    },
-    {
-        "name": "Bitterling",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Rhodeus_amarus_2008_G1.jpg/175px-Rhodeus_amarus_2008_G1.jpg"
-    },
-    {
-        "name": "White Cloud Mountain minnow",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/White_Cloud_Mountain_Minnow_1.jpg/175px-White_Cloud_Mountain_Minnow_1.jpg"
-    },
-    {
-        "name": "Red shiner",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Red_shiner.JPG/175px-Red_shiner.JPG"
-    },
-    {
-        "name": "Common dace",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Leuciscus_leuciscus.jpg/175px-Leuciscus_leuciscus.jpg"
-    },
-    {
-        "name": "Rosy red minnow, fathead minnow",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rosy_Red_Minnows_fullsize.jpg/175px-Rosy_Red_Minnows_fullsize.jpg"
-    },
-    {
-        "name": "Rainbow shiner",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Rainbow_Shiner.jpg/175px-Rainbow_Shiner.jpg"
-    },
-    {
-        "name": "European minnow",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Phoxinus.jpg/175px-Phoxinus.jpg"
-    },
-    {
-        "name": "Southern redbelly dace",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Phoxinus_erythrogaster.jpg/175px-Phoxinus_erythrogaster.jpg"
-    },
-    {
-        "name": "Tench",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Tinca_tinca_Prague_Vltava_2.jpg/175px-Tinca_tinca_Prague_Vltava_2.jpg"
-    },
-    {
-        "name": "Golden orfe",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/LeuciscusIdusWindeIde56cm_21-4-2009_16-46-58.JPG/175px-LeuciscusIdusWindeIde56cm_21-4-2009_16-46-58.JPG"
-    },
-    {
-        "name": "Chinese high fin banded shark",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Myxocyprinus_asiaticus_by_OpenCage.jpg/175px-Myxocyprinus_asiaticus_by_OpenCage.jpg"
-    },
-    {
-        "name": "Loaches"
-    },
-    {
-        "name": "Saddle-back Loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Saddled_loach.jpg/175px-Saddled_loach.jpg"
-    },
-    {
-        "name": "Fork-tailed loach"
-    },
-    {
-        "name": "Horseface loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Acantopsis_choirorhynchos.JPG/175px-Acantopsis_choirorhynchos.JPG"
-    },
-    {
-        "name": "Weather Loach[53]"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Kuhli loach, coolie loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Kuhli_loaches.jpg/175px-Kuhli_loaches.jpg"
-    },
-    {
-        "name": "Java loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pangio_oblonga_acquarium.jpg/175px-Pangio_oblonga_acquarium.jpg"
-    },
-    {
-        "name": "Clown loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/2015-09-13-223-Tiger-loach.jpg/175px-2015-09-13-223-Tiger-loach.jpg"
-    },
-    {
-        "name": "Green tiger loach"
-    },
-    {
-        "name": "Banded tiger loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Syncrossus_helodes.jpg/175px-Syncrossus_helodes.jpg"
-    },
-    {
-        "name": "Redfin tiger loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Syncrossus_berdmorei.jpg/175px-Syncrossus_berdmorei.jpg"
-    },
-    {
-        "name": "Dwarf botia",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Schachbrettschmerle.jpg/175px-Schachbrettschmerle.jpg"
-    },
-    {
-        "name": "Yoyo loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Yoyo_Loach.jpg/175px-Yoyo_Loach.jpg"
-    },
-    {
-        "name": "Bengal loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Botia_dario.jpg/175px-Botia_dario.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Botia_histrionica.jpg/175px-Botia_histrionica.jpg"
-    },
-    {
-        "name": "Polka-Dot Loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Botia_kubotai2.jpg/175px-Botia_kubotai2.jpg"
-    },
-    {
-        "name": "Gangetic loach"
-    },
-    {
-        "name": "Zebra loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Botia_striata.jpg/175px-Botia_striata.jpg"
-    },
-    {
-        "name": "Redtail loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Yasuhikotakia_modesta.jpg/175px-Yasuhikotakia_modesta.jpg"
-    },
-    {
-        "name": "Skunk loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Yasuhikotakia_morleti.jpg/175px-Yasuhikotakia_morleti.jpg"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Borneo hillstream loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gastromyzon_fasciatus.jpg/175px-Gastromyzon_fasciatus.jpg"
-    },
-    {
-        "name": "Tiger hillstream loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Hillstream_Loach.JPG/175px-Hillstream_Loach.JPG"
-    },
-    {
-        "name": "Butterfly hillstream loach",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Beaufortia_kweichowensis.jpg/175px-Beaufortia_kweichowensis.jpg"
-    },
-    {
-        "name": "Guppies and mollies"
-    },
-    {
-        "name": "Guppy",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Guppy_red_male.jpg/175px-Guppy_red_male.jpg"
-    },
-    {
-        "name": "Endler's livebearer",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Poecilia_reticulata_01.jpg/175px-Poecilia_reticulata_01.jpg"
-    },
-    {
-        "name": "Black molly",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Black_molly1.JPG/175px-Black_molly1.JPG"
-    },
-    {
-        "name": "Sailfin molly",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Poecilia_latipinna.jpg/175px-Poecilia_latipinna.jpg"
-    },
-    {
-        "name": "Dalmatian molly",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/DalmationMolly.jpg/175px-DalmationMolly.jpg"
-    },
-    {
-        "name": "Lyretail Molly",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/LyretailMolly.jpg/175px-LyretailMolly.jpg"
-    },
-    {
-        "name": "Platies and swordtails"
-    },
-    {
-        "name": "Southern platy",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Xiphophorus_maculatus.jpg/175px-Xiphophorus_maculatus.jpg"
-    },
-    {
-        "name": "Variable platy",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Papagaienplaty.jpg/175px-Papagaienplaty.jpg"
-    },
-    {
-        "name": "Green swordtail",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Xiphophorus_helleri_03.jpg/175px-Xiphophorus_helleri_03.jpg"
-    },
-    {
-        "name": "Other Livebearers, like Gambusia"
-    },
-    {
-        "name": "Largescale four-eyed fish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Anableps_anableps_qtl1.jpg/175px-Anableps_anableps_qtl1.jpg"
-    },
-    {
-        "name": "Pike topminnow",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Belonesox_belizanus_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016.jpg/175px-Belonesox_belizanus_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016.jpg"
-    },
-    {
-        "name": "Cuban lima",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Limia_vittata.jpg/175px-Limia_vittata.jpg"
-    },
-    {
-        "name": "Knife livebearer",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Alfaro_cultratus.jpg/175px-Alfaro_cultratus.jpg"
-    },
-    {
-        "name": "Least killifish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Dwarf_Livebearer_or_Least_Killifish_%28Heterandria_formosa%29.jpg/175px-Dwarf_Livebearer_or_Least_Killifish_%28Heterandria_formosa%29.jpg"
-    },
-    {
-        "name": "Tanganyika killifish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Lamprichthys_tanganicanus.JPG/175px-Lamprichthys_tanganicanus.JPG"
-    },
-    {
-        "name": "Norman's lampeye",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Aplocheilichthys_normani_3.jpg/175px-Aplocheilichthys_normani_3.jpg"
-    },
-    {
-        "name": "Celebes halfbeak",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Nomorhamphus_liemi_liemi_%28Wroclaw_zoo%29-2.JPG/175px-Nomorhamphus_liemi_liemi_%28Wroclaw_zoo%29-2.JPG"
-    },
-    {
-        "name": "Wrestling halfbeak",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dermogenys_pusilla.jpg/175px-Dermogenys_pusilla.jpg"
-    },
-    {
-        "name": "Forest halfbeak",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Hemirhamphodon_pogonognathus02.jpg/175px-Hemirhamphodon_pogonognathus02.jpg"
-    },
-    {
-        "name": "Killifish"
-    },
-    {
-        "name": "Blue Lyretail",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Fundulopanchax_gardneri.png/175px-Fundulopanchax_gardneri.png"
-    },
-    {
-        "name": "Clown Killifish, rocket killifish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Epiplaty_annulatus_-_Panchax_%C3%A0_bandes.jpg/175px-Epiplaty_annulatus_-_Panchax_%C3%A0_bandes.jpg"
-    },
-    {
-        "name": "Bluefin Notho, Rachow's Notho, Rainbow Notho",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Nothobranchius_rachovii_male.jpg/175px-Nothobranchius_rachovii_male.jpg"
-    },
-    {
-        "name": "Striped panchax, Golden Wonder",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hechtlinge.jpg/175px-Hechtlinge.jpg"
-    },
-    {
-        "name": "American Flagfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Jordanella_floridae.jpg/175px-Jordanella_floridae.jpg"
-    },
-    {
-        "name": "Argentine Pearl",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Austrolebias_nigripinnis992.jpg/175px-Austrolebias_nigripinnis992.jpg"
-    },
-    {
-        "name": "Golden Toppminnow",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fundulus_chrysotus.jpg/175px-Fundulus_chrysotus.jpg"
-    },
-    {
-        "name": "Northern Studfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Fundulus_catenatus.jpg/175px-Fundulus_catenatus.jpg"
-    },
-    {
-        "name": "Red-seam Killifish"
-    },
-    {
-        "name": "Arabian Killifish"
-    },
-    {
-        "name": "Gourami"
-    },
-    {
-        "name": "Ceylonese combtail",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Belontia_signata_-_Wilhelma_01.jpg/175px-Belontia_signata_-_Wilhelma_01.jpg"
-    },
-    {
-        "name": "Siamese fighting fish (sometimes Betta, esp. US)",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Kampffisch_betta_splendenscele4.jpg/175px-Kampffisch_betta_splendenscele4.jpg"
-    },
-    {
-        "name": "Frail gourami"
-    },
-    {
-        "name": "Paradise fish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Paradise_fish_female_and_male_02.jpg/175px-Paradise_fish_female_and_male_02.jpg"
-    },
-    {
-        "name": "Ornate paradisefish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Malpulutta_kretseri.jpg/175px-Malpulutta_kretseri.jpg"
-    },
-    {
-        "name": "Eyespot gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Parasphaerichthys_ocellatus.png/175px-Parasphaerichthys_ocellatus.png"
-    },
-    {
-        "name": "Brown Spike-tailed paradisefish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Pseudosphromenus_dayi_hi_res.jpg/175px-Pseudosphromenus_dayi_hi_res.jpg"
-    },
-    {
-        "name": "Honey gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Colisasota_male.jpg/175px-Colisasota_male.jpg"
-    },
-    {
-        "name": "Dwarf gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Colisa_lalia.jpg/175px-Colisa_lalia.jpg"
-    },
-    {
-        "name": "Moonlight gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Trichogaster_microlepis.jpg/175px-Trichogaster_microlepis.jpg"
-    },
-    {
-        "name": "Snakeskin gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Snakeskin_gourami.jpg/175px-Snakeskin_gourami.jpg"
-    },
-    {
-        "name": "Pygmy gourami, Sparkling gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Trichopsis_pumila.jpg/175px-Trichopsis_pumila.jpg"
-    },
-    {
-        "name": "Malay combtail",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Belont_hasselt_100523-1755_sap.JPG/175px-Belont_hasselt_100523-1755_sap.JPG"
-    },
-    {
-        "name": "Slender betta"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Scarlet betta",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Betta_coccina_%22Jambi-Sumatra%22.JPG/175px-Betta_coccina_%22Jambi-Sumatra%22.JPG"
-    },
-    {
-        "name": "Crescent betta",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Betta_imbellis_%28male%29_20100512_2.jpg/175px-Betta_imbellis_%28male%29_20100512_2.jpg"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Toba betta"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Betta_simorum_male1.jpg/175px-Betta_simorum_male1.jpg"
-    },
-    {
-        "name": "Giant Pikehead",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Luciocephalus_pulcher_%28Gray%2C_1830%29.jpg/175px-Luciocephalus_pulcher_%28Gray%2C_1830%29.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Parosphromenus_spec_Langgam1.jpg/175px-Parosphromenus_spec_Langgam1.jpg"
-    },
-    {
-        "name": "Chocolate gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Sphaerichthys_breeding.jpg/175px-Sphaerichthys_breeding.jpg"
-    },
-    {
-        "name": "Crossband chocolate gourami"
-    },
-    {
-        "name": "Samurai gourami"
-    },
-    {
-        "name": "Pearl gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Fadenfisch_mosaik_m%C3%A4nnlich.jpg/175px-Fadenfisch_mosaik_m%C3%A4nnlich.jpg"
-    },
-    {
-        "name": "Three spot gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fadenfisch_blau_m%C3%A4nnlich_%282010%29_2.jpg/175px-Fadenfisch_blau_m%C3%A4nnlich_%282010%29_2.jpg"
-    },
-    {
-        "name": "Croaking gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Trichopsis_vittata_LCK_8707.JPG/175px-Trichopsis_vittata_LCK_8707.JPG"
-    },
-    {
-        "name": "Giant gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Giant.gourami.arp.jpg/175px-Giant.gourami.arp.jpg"
-    },
-    {
-        "name": "Other labyrinth fishes"
-    },
-    {
-        "name": "Kissing gourami",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Helostoma_temminkii_01.jpg/175px-Helostoma_temminkii_01.jpg"
-    },
-    {
-        "name": "Climbing perch",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Pla_mo-Thailand25.JPG/175px-Pla_mo-Thailand25.JPG"
-    },
-    {
-        "name": "Leopard bush fish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Ctenopoma_acutirostre_1.JPG/175px-Ctenopoma_acutirostre_1.JPG"
-    },
-    {
-        "name": "African leaffish"
-    },
-    {
-        "name": "Blue badis",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Blauwe_badis_%28man%29.jpg/175px-Blauwe_badis_%28man%29.jpg"
-    },
-    {
-        "name": "Scarlet badis",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Dario_dario_male.jpg/175px-Dario_dario_male.jpg"
-    },
-    {
-        "name": "Bornean leaffish"
-    },
-    {
-        "name": "Malayan leaffish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Pristol_fasci_100614-3518_awr.JPG/175px-Pristol_fasci_100614-3518_awr.JPG"
-    },
-    {
-        "name": "Forest snakehead",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Channa_lucius_2.jpg/175px-Channa_lucius_2.jpg"
-    },
-    {
-        "name": "Dwarf snakehead",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Channa_gachua_TH203_-_W004.jpg/175px-Channa_gachua_TH203_-_W004.jpg"
-    },
-    {
-        "name": "Emperor snakehead"
-    },
-    {
-        "name": "Giant snakehead",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Channa_micropeltes%2C.jpg/175px-Channa_micropeltes%2C.jpg"
-    },
-    {
-        "name": "Ocellated snakehead",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Channidae_-_Channa_pleurophthalma.JPG/175px-Channidae_-_Channa_pleurophthalma.JPG"
-    },
-    {
-        "name": "African snakehead",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Parachanna_obscura_-_Aqua_Porte_Dor%C3%A9e_11.JPG/175px-Parachanna_obscura_-_Aqua_Porte_Dor%C3%A9e_11.JPG"
-    },
-    {
-        "name": "Red rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/GlossolepisIncisus.JPG/175px-GlossolepisIncisus.JPG"
-    },
-    {
-        "name": "Lake Wanam rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Glossolepis_wanamensis.jpg/175px-Glossolepis_wanamensis.jpg"
-    },
-    {
-        "name": "Threadfin rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Iriatherina_Werneri-Yellow_Finned_Male.jpg/175px-Iriatherina_Werneri-Yellow_Finned_Male.jpg"
-    },
-    {
-        "name": "New Guinea rainbowfish"
-    },
-    {
-        "name": "Western rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/300_Melanotaenia_australis_Western_rainbowfish_Mitchell_River_NP_VIII-2013.jpg/175px-300_Melanotaenia_australis_Western_rainbowfish_Mitchell_River_NP_VIII-2013.jpg"
-    },
-    {
-        "name": "Boeseman's rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Sunny1.jpg/175px-Sunny1.jpg"
-    },
-    {
-        "name": "Duboulayi's rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/M_duboulayi.jpg/175px-M_duboulayi.jpg"
-    },
-    {
-        "name": "Australian rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Australian_rainbow.jpg/175px-Australian_rainbow.jpg"
-    },
-    {
-        "name": "Lake Tebera rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Regenbogenfisch_im_Zooaquarium_Berlin.jpg/175px-Regenbogenfisch_im_Zooaquarium_Berlin.jpg"
-    },
-    {
-        "name": "Lake Kutubu rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Melanotaenia_lacustris_thomnight_001.jpg/175px-Melanotaenia_lacustris_thomnight_001.jpg"
-    },
-    {
-        "name": "Lake Kurumoi rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Melanotaenia_parva_male.jpg/175px-Melanotaenia_parva_male.jpg"
-    },
-    {
-        "name": "Neon rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Dwarf_neon_rainbows.jpg/175px-Dwarf_neon_rainbows.jpg"
-    },
-    {
-        "name": "Eastern rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Eastern_Rainbowfish_01.jpg/175px-Eastern_Rainbowfish_01.jpg"
-    },
-    {
-        "name": "Banded rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Banded_rainbowfish_Melanotaenia_trifasciata.jpg/175px-Banded_rainbowfish_Melanotaenia_trifasciata.jpg"
-    },
-    {
-        "name": "Celebes rainbow",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Marosatherina_ladigesi.jpg/175px-Marosatherina_ladigesi.jpg"
-    },
-    {
-        "name": "Forktail blue-eye",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Pseudomugil_furcatus_m_Aquarium_DG.jpg/175px-Pseudomugil_furcatus_m_Aquarium_DG.jpg"
-    },
-    {
-        "name": "Spotted blue-eye",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Pseudomugil_gertrudae_ARUII_Maennchen.jpg/175px-Pseudomugil_gertrudae_ARUII_Maennchen.jpg"
-    },
-    {
-        "name": "Red neon blue-eye"
-    },
-    {
-        "name": "Pacific blue-eye",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/052fishcropped.jpg/175px-052fishcropped.jpg"
-    },
-    {
-        "name": "Delicate blue-eye"
-    },
-    {
-        "name": "Madagascar rainbowfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Bedotia_geayi_1.jpg/175px-Bedotia_geayi_1.jpg"
-    },
-    {
-        "name": "Empire gudgeon",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Hypseleotris_compressa.jpg/175px-Hypseleotris_compressa.jpg"
-    },
-    {
-        "name": "Purple sleeper gudgeon",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Mogurnda_mogurnda.png/175px-Mogurnda_mogurnda.png"
-    },
-    {
-        "name": "Peacock gudgeon, Peacock goby",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Tateurndina_ocellicauda_male_DG.jpg/175px-Tateurndina_ocellicauda_male_DG.jpg"
-    },
-    {
-        "name": "Black toraja goby"
-    },
-    {
-        "name": "Bumblebee goby",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Brachygobius_doriae.jpg/175px-Brachygobius_doriae.jpg"
-    },
-    {
-        "name": "Knight goby",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Babka_nakrapiana_-_Podwodne_Kr%C3%B3lestwo.jpg/175px-Babka_nakrapiana_-_Podwodne_Kr%C3%B3lestwo.jpg"
-    },
-    {
-        "name": "Rainbow stiphodon",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Stiphodon_ornatus.jpg/175px-Stiphodon_ornatus.jpg"
-    },
-    {
-        "name": "Cobalt blue goby"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sicyopus_zosterophorus.jpg/175px-Sicyopus_zosterophorus.jpg"
-    },
-    {
-        "name": "Bearded worm goby"
-    },
-    {
-        "name": "Marbled goby",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Oxyel_marmor_080425_7661_tdp.jpg/175px-Oxyel_marmor_080425_7661_tdp.jpg"
-    },
-    {
-        "name": "Crazy fish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Butis_butis_%28Hamilton%2C_1822%29.jpg/175px-Butis_butis_%28Hamilton%2C_1822%29.jpg"
-    },
-    {
-        "name": "",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Rhinogobius_duospilus.jpeg/175px-Rhinogobius_duospilus.jpeg"
-    },
-    {
-        "name": "Dragon goby, Violet goby",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Gobioides_broussonnetii_-_Gobie_violet_-_Aqua_Porte_Dor%C3%A9e_13.JPG/175px-Gobioides_broussonnetii_-_Gobie_violet_-_Aqua_Porte_Dor%C3%A9e_13.JPG"
-    },
-    {
-        "name": "Striped sleeper goby",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Fat_Sleeper_%28Dormitator_maculatus%29.jpg/175px-Fat_Sleeper_%28Dormitator_maculatus%29.jpg"
-    },
-    {
-        "name": "Pygmy sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elassoma_Gilberti_male_in_breeding_colors.jpg/175px-Elassoma_Gilberti_male_in_breeding_colors.jpg"
-    },
-    {
-        "name": "Blackbanded sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Enneacanthus_chaetodon_02.jpg/175px-Enneacanthus_chaetodon_02.jpg"
-    },
-    {
-        "name": "Blue-spotted sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Enneacanthus_gloriosus.jpg/175px-Enneacanthus_gloriosus.jpg"
-    },
-    {
-        "name": "Redbreast sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Lepomis_auritus.jpg/175px-Lepomis_auritus.jpg"
-    },
-    {
-        "name": "Green sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Green_sunfish.JPG/175px-Green_sunfish.JPG"
-    },
-    {
-        "name": "Orangespotted sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Orangespottednctc.png/175px-Orangespottednctc.png"
-    },
-    {
-        "name": "Pumpkinseed",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Lepomis_gibbosus_PAQ.jpg/175px-Lepomis_gibbosus_PAQ.jpg"
-    },
-    {
-        "name": "Warmouth",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Warmouth_Sunfish_%28Lepomis_gulosus%29_%282497915731%29.jpg/175px-Warmouth_Sunfish_%28Lepomis_gulosus%29_%282497915731%29.jpg"
-    },
-    {
-        "name": "Bluegill",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Bluegill_%28Lepomis_macrochirus%29.jpg/175px-Bluegill_%28Lepomis_macrochirus%29.jpg"
-    },
-    {
-        "name": "Dollar sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Lepomis_marginatus_UMFS_2014_1.JPG/175px-Lepomis_marginatus_UMFS_2014_1.JPG"
-    },
-    {
-        "name": "Longear sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Lepomis_megalotis_%28Longear_Sunfish%29_%2820396406%29.jpg/175px-Lepomis_megalotis_%28Longear_Sunfish%29_%2820396406%29.jpg"
-    },
-    {
-        "name": "Redear sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Redear_Sunfish_002.jpg/175px-Redear_Sunfish_002.jpg"
-    },
-    {
-        "name": "Redspotted sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Lepomis_miniatus_2.jpg/175px-Lepomis_miniatus_2.jpg"
-    },
-    {
-        "name": "Northern sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Lepomis_megalotis_2.jpg/175px-Lepomis_megalotis_2.jpg"
-    },
-    {
-        "name": "Spotted sunfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FMIB_51023_Chinquapin_Perch.jpeg/175px-FMIB_51023_Chinquapin_Perch.jpeg"
-    },
-    {
-        "name": "Gray bichir, Senegal bichir, or dinosaur bichir",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Polypterus_senegalus_senegalus_headstand.jpg/175px-Polypterus_senegalus_senegalus_headstand.jpg"
-    },
-    {
-        "name": "Ornate bichir",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polypterus-ornatipinnis.jpg/175px-Polypterus-ornatipinnis.jpg"
-    },
-    {
-        "name": "Retropinnis bichir"
-    },
-    {
-        "name": "Barred bichir",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Polypterus_delhezi_2.jpg/175px-Polypterus_delhezi_2.jpg"
-    },
-    {
-        "name": "Saddled bichir",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Polypterus_endlicherii.jpg/175px-Polypterus_endlicherii.jpg"
-    },
-    {
-        "name": "Reedfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Akwa19_reedfish.jpg/175px-Akwa19_reedfish.jpg"
-    },
-    {
-        "name": "Hingemouth"
-    },
-    {
-        "name": "Blunt-jawed elephantnose",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Campylomormyrus_tamandua.png/175px-Campylomormyrus_tamandua.png"
-    },
-    {
-        "name": "Peters' elephant nose",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Gnathonemus_petersii_by_OpenCage.jpg/175px-Gnathonemus_petersii_by_OpenCage.jpg"
-    },
-    {
-        "name": "African butterflyfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pantodon_buchholzi.jpg/175px-Pantodon_buchholzi.jpg"
-    },
-    {
-        "name": "Aba aba",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Gymnarchus_007.jpg/175px-Gymnarchus_007.jpg"
-    },
-    {
-        "name": "Reticulated knifefish"
-    },
-    {
-        "name": "African brown knifefish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Xenomystus_nigri_1.JPG/175px-Xenomystus_nigri_1.JPG"
-    },
-    {
-        "name": "Clown knifefish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chitala_ornata_%28Zoo_Brno%2C_Czech_Republic%29.jpg/175px-Chitala_ornata_%28Zoo_Brno%2C_Czech_Republic%29.jpg"
-    },
-    {
-        "name": "Asian arowana",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Scleropages_formosus_Prague_2012_1.jpg/175px-Scleropages_formosus_Prague_2012_1.jpg"
-    },
-    {
-        "name": "Silver arowana",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Osteoglossum_bicirrhosum.JPG/175px-Osteoglossum_bicirrhosum.JPG"
-    },
-    {
-        "name": "Freshwater pipefish"
-    },
-    {
-        "name": "African freshwater pipefish"
-    },
-    {
-        "name": "Fire eel",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Ildaal.jpg/175px-Ildaal.jpg"
-    },
-    {
-        "name": "Tire track eel",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tire_Track_Eel.jpg/175px-Tire_Track_Eel.jpg"
-    },
-    {
-        "name": "Spotfinned spiny eel",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Macrognathus_siamenis.jpg/175px-Macrognathus_siamenis.jpg"
-    },
-    {
-        "name": "Half-banded spiny eel"
-    },
-    {
-        "name": "Lesser spiny eel"
-    },
-    {
-        "name": "Freshwater sole",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Synaptura_panoides_-_1866-1872_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ14000237.tif/lossy-page1-175px-Synaptura_panoides_-_1866-1872_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ14000237.tif.jpg"
-    },
-    {
-        "name": "Freshwater needlefish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Xenentodon_cancila_%28Wroclaw_zoo%29-1.JPG/175px-Xenentodon_cancila_%28Wroclaw_zoo%29-1.JPG"
-    },
-    {
-        "name": "Javanese ricefish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Oryzias_javanicus.jpg/175px-Oryzias_javanicus.jpg"
-    },
-    {
-        "name": "Daisy's Ricefish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Oryzias_woworae.jpg/175px-Oryzias_woworae.jpg"
-    },
-    {
-        "name": "Indian glassy fish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Parambassis_ranga_2.jpg/175px-Parambassis_ranga_2.jpg"
-    },
-    {
-        "name": "Amazon leaffish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Monocirrhus_polyacanthus.jpg/175px-Monocirrhus_polyacanthus.jpg"
-    },
-    {
-        "name": ""
-    },
-    {
-        "name": "Indonesian tigerfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Tigerfish037.JPG/175px-Tigerfish037.JPG"
-    },
-    {
-        "name": "Silver tigerfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Datnioides_polota_%28Hamilton%2C_1822%29.jpg/175px-Datnioides_polota_%28Hamilton%2C_1822%29.jpg"
-    },
-    {
-        "name": "Banded archerfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Toxotes_jaculatrix_Porte_dor%C3%A9e.jpg/175px-Toxotes_jaculatrix_Porte_dor%C3%A9e.jpg"
-    },
-    {
-        "name": "Spotted scat",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Scatophagus_argus_%28Wroclaw_zoo%29-2.JPG/175px-Scatophagus_argus_%28Wroclaw_zoo%29-2.JPG"
-    },
-    {
-        "name": "Green spotted puffer",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tetraodon_nigroviridis_1.jpg/175px-Tetraodon_nigroviridis_1.jpg"
-    },
-    {
-        "name": "Humpback Puffer"
-    },
-    {
-        "name": "Red-tail dwarf puffer",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Carinotetraodon_irrubesco_male.JPG/175px-Carinotetraodon_irrubesco_male.JPG"
-    },
-    {
-        "name": "Golden puffer"
-    },
-    {
-        "name": "Figure 8 pufferfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Tbiocellatus.jpg/175px-Tbiocellatus.jpg"
-    },
-    {
-        "name": "Dwarf pufferfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Carinotetraodon_travancoricus_2.JPG/175px-Carinotetraodon_travancoricus_2.JPG"
-    },
-    {
-        "name": "Fahaka puffer",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/TetraodonLineatus.JPG/175px-TetraodonLineatus.JPG"
-    },
-    {
-        "name": "Mbu puffer",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Juvenile_Mbu_pufferfish.jpg/175px-Juvenile_Mbu_pufferfish.jpg"
-    },
-    {
-        "name": "Congo pufferfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Tetraodon_miurus.jpg/175px-Tetraodon_miurus.jpg"
-    },
-    {
-        "name": "Amazon puffer",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Assel-Kugelfisch.jpg/175px-Assel-Kugelfisch.jpg"
-    },
-    {
-        "name": "West African lungfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/G%C5%91tehal-2.jpg/175px-G%C5%91tehal-2.jpg"
-    },
-    {
-        "name": "Spotted lungfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Dolloi.jpg/175px-Dolloi.jpg"
-    },
-    {
-        "name": "South American lungfish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Lepidosiren_paradoxa_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10042016_1.jpg/175px-Lepidosiren_paradoxa_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10042016_1.jpg"
-    },
-    {
-        "name": "Ocellate river stingray",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Pfauenaugen-Stechrochen_-_Ocellate_river_stingray_-_Potamotrygon_motoro.jpg/175px-Pfauenaugen-Stechrochen_-_Ocellate_river_stingray_-_Potamotrygon_motoro.jpg"
-    },
-    {
-        "name": "Black devil stingray",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Potamotrygon_leopoldi_Prague_2011_2.jpg/175px-Potamotrygon_leopoldi_Prague_2011_2.jpg"
-    },
-    {
-        "name": "Black ghost knifefish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Apteronotus_albifrons_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_1.jpg/175px-Apteronotus_albifrons_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_1.jpg"
-    },
-    {
-        "name": "Brown ghost knifefish"
-    },
-    {
-        "name": "Electric eel",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Electric-eel.jpg/175px-Electric-eel.jpg"
-    },
-    {
-        "name": "Glass knifefish",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Eigenmannia_virescens_000.jpg/175px-Eigenmannia_virescens_000.jpg"
-    },
-    {
-        "name": "Sterlet",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Acipenser_ruthenus_Prague_Vltava_1.jpg/175px-Acipenser_ruthenus_Prague_Vltava_1.jpg"
-    },
-    {
-        "name": "Shovelnose Sturgeon",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Shovelnose_Sturgeon_01-19-08_1241.jpg/175px-Shovelnose_Sturgeon_01-19-08_1241.jpg"
-    },
-    {
-        "name": "Spotted Gar",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lepisosteus_oculatus1.jpg/175px-Lepisosteus_oculatus1.jpg"
-    },
-    {
-        "name": "Longnose Gar",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Lepisosteus_osseus_1.jpg/175px-Lepisosteus_osseus_1.jpg"
-    },
-    {
-        "name": "Florida Gar",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Lepisosteus_platyrhincus.JPG/175px-Lepisosteus_platyrhincus.JPG"
-    },
-    {
-        "name": "Alligator Gar",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Alligator_Gar_%28Atractosteus_spatula%29_%283149748488%29.jpg/175px-Alligator_Gar_%28Atractosteus_spatula%29_%283149748488%29.jpg"
-    },
-    {
-        "name": "Cuban Gar",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MANJUARI-2.jpg/175px-MANJUARI-2.jpg"
-    },
-    {
-        "name": "Tropical Gar",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/PuertoAristaSanctuary04.JPG/175px-PuertoAristaSanctuary04.JPG"
-    },
-    {
-        "name": "Freshwater blenny",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Blennie_d%27eau_douce-Salaria_fluviatilis.JPG/175px-Blennie_d%27eau_douce-Salaria_fluviatilis.JPG"
-    },
-    {
-        "name": "Pickerel",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Esox_americanus_vermiculatus.jpg/175px-Esox_americanus_vermiculatus.jpg"
-    },
-    {
-        "name": "Brook stickleback",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Culaea_inconstans.jpg/175px-Culaea_inconstans.jpg"
-    },
-    {
-        "name": "European Perch",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Perca_fluviatilis2.jpg/175px-Perca_fluviatilis2.jpg"
-    },
-    {
-        "name": "Banded darter"
-    },
-    {
-        "name": "Gilt darter",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Percina_evides.jpg/175px-Percina_evides.jpg"
-    },
-    {
-        "name": "Orangethroat darter",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Orangethroat_darter_male.jpg/175px-Orangethroat_darter_male.jpg"
-    },
-    {
-        "name": "Rainbow darter",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Etheostoma_caeruleum.jpg/175px-Etheostoma_caeruleum.jpg"
-    },
-    {
-        "name": "Splendid darter"
-    },
-    {
-        "name": "Freshwater\nMarine\nPublic\nReef\nBrackish-water\nCommunity\nBiotope"
-    },
-    {
-        "name": "Airstone\nAlgae scrubber\nBerlin Method\nBog-wood / Driftwood\nCalcium reactor\nDeep sand bed\nFilter\nFishcam\nFish feeder\nHeater\nLighting\nLive rock / Live sand\nPowerhead\nProtein skimmer\nRefugium\nSubstrate\nSump"
-    },
-    {
-        "name": "Algae eater\nBottom feeder\nColdwater\nDither\nHardy\nPainted\nTropical"
-    },
-    {
-        "name": "Brine shrimp\nDaphnia\nFeeder fish\nFeeder shrimp\nInfusoria\nShrimp mix\nTubifex tubifex"
-    },
-    {
-        "name": "Aquarium fishery\nAquascaping\nArtificial seawater\nBath treatment\nClean-up crew\nDisease in ornamental fish\nMacquarium\nProject Piaba\nReef safe\nSpawning trigger\nWater conditioner"
-    },
-    {
-        "name": "Takashi Amano\nHerbert R. Axelrod\nLeonhard Baldner\nPierre Carbonnier\nEdward Edwards\nGeorge Farmer\nPhilip Henry Gosse\nSven O. Kullander\nWilliam Alford Lloyd\nPaul Matte\nJulian Sprung\nAnna Thynne\nCharles Haskins Townsend\nJeanne Villepreux-Power\nRobert Warington"
-    },
-    {
-        "name": "Aquarium Fish International\nKoi\nPractical Fishkeeping\nTropical Fish Hobbyist"
-    },
-    {
-        "name": "Dennerle\nDrs. Foster & Smith\nHikari\nHagen\nSera\nTetra\nWardley"
-    },
-    {
-        "name": "Aquarium diseases\nAquarium fish by scientific name\nFreshwater aquarium fish / amphibians / invertebrates / plants\nMarine aquarium fish / invertebrates / plants\nBrackish aquarium fish / invertebrates / plants"
+        "scientific_name": "Megalechis thoracata",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Megalechis_thoracata.jpg/175px-Megalechis_thoracata.jpg",
+        "size": "15 cm (5.9 in)",
+        "remarks": "",
+        "min_tank_size": "",
+        "temperature": "64–83 °F (18–28 °C).",
+        "ph": "6-8"
     }
 ]
