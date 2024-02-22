@@ -10,27 +10,24 @@ page = requests.get(URL)
 soup = BeautifulSoup(page.content, 'html.parser')
 
 fish_data_list = []
-tbodies = soup.find_all('tbody')
+tempbodies = soup.find_all('tbody')
 
-# Group and Subgroup names
-groups = ["Catfish", "Characins & Other Characiformes", "Cichlids", "Cyprinids", "Loaches & Related Cypriniformes", 
-    "Livebearers & Killifish", "Labyrinth Fish", "Rainbowfish", "Gobies & Sleepers", "Sunfish & Relatives", "Others"]
-catfish_subgroups = ["Armored Catfish", "Armoured Suckermouth Catfish", "Long-whiskered Catfish", 
-    "Squeakers & Upside-down Catfish", "Other Catfish"]
-characins_subgroups = ["Tetras", "Hatchetfish", "Pencilfish", "Serrasalminae", "Other Characins"]
-cichlids_subgroups = ["Lake Malawi Cichlids", "Lake Tanganyika Cichlids", "Lake Victorio Cichlids", 
-    "Miscellaneous African Cichlids", "Dwarf Cichlids" "Central American Cichlids", "South American", "Other Cichlids"]
-cyprinids_subgroups = ["Barbs", "Other Cyprinids", "Rasboras", "Danios & Other Danionins", "Cold-water Cyprinids"]
-loaches_subgroups = ["Loaches"]
-livebearers_subgroups = ["Guppies & Mollies", "Platies & Swordtails", "Other Livebearers", "Killifish"]
-labyrinthfish_subgroups = ["Gouramis", "Other Labyrinth Fish"]
-rainbowfish_subgroups = ["Rainbowfish"]
-gobies_subgroups = ["Gobies & Sleepers"]
-sunfish_subgroups = ["Sunfish & Relatives"]
-others_subgroups = ["Others"]
+tbodies = tempbodies[1::2]
 
-all_subgroups = [catfish_subgroups, characins_subgroups, cichlids_subgroups, cyprinids_subgroups, loaches_subgroups, 
-    livebearers_subgroups, labyrinthfish_subgroups, rainbowfish_subgroups, gobies_subgroups, sunfish_subgroups, others_subgroups]
+
+groups_with_subgroups = {
+    "Catfish": ["Armored Catfish", "Armoured Suckermouth Catfish", "Long-whiskered Catfish", "Squeakers & Upside-down Catfish", "Other Catfish"],
+    "Characins & Other Characiformes": ["Tetras", "Hatchetfish", "Pencilfish", "Serrasalminae", "Other Characins"],
+    "Cichlids": ["Lake Malawi Cichlids", "Lake Tanganyika Cichlids", "Lake Victorio Cichlids", "Miscellaneous African Cichlids", "Dwarf Cichlids", "Central American Cichlids", "South American", "Other Cichlids"],
+    "Cyprinids": ["Barbs", "Other Cyprinids", "Rasboras", "Danios & Other Danionins", "Cold-water Cyprinids"],
+    "Loaches & Related Cypriniformes": ["Loaches"],
+    "Livebearers & Killifish": ["Guppies & Mollies", "Platies & Swordtails", "Other Livebearers", "Killifish"],
+    "Labyrinth Fish": ["Gouramis", "Other Labyrinth Fish"],
+    "Rainbowfish": ["Rainbowfish"],
+    "Gobies & Sleepers": ["Gobies & Sleepers"],
+    "Sunfish & Relatives": ["Sunfish & Relatives"],
+    "Others": ["Others"]
+}
 
 # Scrapes whichever table is passed to it
 def Scrape(tbody, group, subgroup):
@@ -55,14 +52,9 @@ def Scrape(tbody, group, subgroup):
                 "subgroup": subgroup
                 # Add more fields as needed
             })
+#34
+for i in range(5):
+    Scrape(tbodies[i], "Catfish", groups_with_subgroups["Catfish"][i])
 
-for i in range(len(groups)):
-    for j in range(len(all_subgroups[i])):
-        Scrape(tbodies[j+1], groups[i], all_subgroups[i][j])
-
-
-
-
-# Saving the data to a JSON file
 with open('fish_data.json', 'w', encoding='utf-8') as f:
     json.dump(fish_data_list, f, ensure_ascii=False, indent=4)
