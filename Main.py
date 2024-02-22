@@ -40,4 +40,7 @@ for row in soup.find_all('tr'):
 for fish in fish_list:
     print(fish)
 
+# Saving the data to a JSON file
+with open('fish_data.json', 'w', encoding='utf-8') as f:
+    json.dump(fish_list, f, ensure_ascii=False, indent=4)
 
