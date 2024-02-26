@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+from openai import OpenAI
 
 # Fetch content from the URL
 URL = "https://en.wikipedia.org/wiki/List_of_freshwater_aquarium_fish_species"
