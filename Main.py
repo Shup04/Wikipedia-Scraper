@@ -42,7 +42,7 @@ def scrape_description(second_url):
     # If the div is found, grab all text (should be the same for all pages)
     if specific_div:
         all_paragraph_text = " ".join(paragraph.text.strip() for paragraph in specific_div.find_all('p'))
-        print(generateGPTResponse(all_paragraph_text))
+        return(generateGPTResponse(all_paragraph_text))
     else:
         print("Specific div not found.")
 
