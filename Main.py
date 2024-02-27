@@ -1,7 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-from openai import OpenAI
+#from openai import OpenAI
+from GPTSummarize import generateGPTResponse
 
 # Fetch content from the URL
 URL = "https://en.wikipedia.org/wiki/List_of_freshwater_aquarium_fish_species"
@@ -31,15 +32,41 @@ groups_with_subgroups = {
 # Easier identifier for all items
 unique_index = 0
 
+# For scraping description if there is a secondary page
+def scrape_description(second_url):
+    second_response = requests.get(second_url)
+    page_soup = BeautifulSoup(second_response.content, 'html.parser')
+    # Locate the specific div by its class
+    specific_div = page_soup.find('div', class_='mw-content-ltr mw-parser-output')
+
+    # Check if the specific div is found
+    if specific_div:
+        # Extract text from each paragraph within this div and concatenate
+        all_paragraph_text = " ".join(paragraph.text.strip() for paragraph in specific_div.find_all('p'))
+        
+    else:
+        print("Specific div not found.")
+
+
+    
+
+
 # Scrapes whichever table is passed to it
 def scrape(table, group, subgroup, start_index):
     global unique_index
-    unique_iindex = start_index
+    unique_index = start_index
     for row in table.find_all('tr')[1:]:  # Skip the header row
         cells = row.find_all('td')
         if len(cells) > 1:  # Ensure there are enough cells
+
+            # Grab image URL if it exists
             image_cell = cells[2].find('img')
             image_url = f"https:{image_cell['src']}" if image_cell else ""
+
+            # Grab the description from the hyperlink
+            link_cell = cells[1].find('a', href=True)
+            description_url = f"https://en.wikipedia.org{link_cell['href']}" if link_cell else ""
+            description = scrape_description(description_url) if link_cell else ""
             
             fish_data_list.append({
                 "id": unique_index,
@@ -52,7 +79,8 @@ def scrape(table, group, subgroup, start_index):
                 "temperature": cells[6].text.strip(),
                 "pH": cells[7].text.strip(),
                 "group": group,
-                "subgroup": subgroup
+                "subgroup": subgroup,
+                "description": description
             })
             unique_index += 1
 
