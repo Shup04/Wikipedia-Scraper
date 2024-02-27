@@ -10,10 +10,10 @@ def generateGPTResponse(message):
         model=MODEL,
         max_tokens=MAX_TOKENS,
         messages=[
-            {"role": "system", "content": "You are to summarize the following information about a specific fish species in a concise paragraph, i will use this fish description in my mobile app."},
+            {"role": "system", "content": "You are to summarize the following information about a specific fish species in a concise format, i will use this fish description in my mobile app."},
             {"role": "user", "content": message},
         ],
-        temperature=0,
+        temperature=0.3,
     )
     return response
 

@@ -39,11 +39,10 @@ def scrape_description(second_url):
     # Locate the specific div by its class
     specific_div = page_soup.find('div', class_='mw-content-ltr mw-parser-output')
 
-    # Check if the specific div is found
+    # If the div is found, grab all text (should be the same for all pages)
     if specific_div:
-        # Extract text from each paragraph within this div and concatenate
         all_paragraph_text = " ".join(paragraph.text.strip() for paragraph in specific_div.find_all('p'))
-        
+        print(generateGPTResponse(all_paragraph_text))
     else:
         print("Specific div not found.")
 
