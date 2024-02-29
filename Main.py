@@ -39,15 +39,14 @@ def scrape_description(second_url):
     # Locate the specific div by its class
     specific_div = page_soup.find('div', class_='mw-content-ltr mw-parser-output')
 
+
     # If the div is found, grab all text (should be the same for all pages)
     if specific_div:
         all_paragraph_text = " ".join(paragraph.text.strip() for paragraph in specific_div.find_all('p'))
+        print(all_paragraph_text)
         return(generateGPTResponse(all_paragraph_text))
     else:
         print("Specific div not found.")
-
-
-    
 
 
 # Scrapes whichever table is passed to it
@@ -65,7 +64,6 @@ def scrape(table, group, subgroup, start_index):
             # Grab the description from the hyperlink
             link_cell = cells[1].find('a', href=True)
             description_url = f"https://en.wikipedia.org{link_cell['href']}" if link_cell else ""
-            description = scrape_description(description_url) if link_cell else ""
             
             fish_data_list.append({
                 "id": unique_index,
@@ -79,7 +77,8 @@ def scrape(table, group, subgroup, start_index):
                 "pH": cells[7].text.strip(),
                 "group": group,
                 "subgroup": subgroup,
-                "description": description
+                "link": description_url,
+                "description": ""
             })
             unique_index += 1
 
