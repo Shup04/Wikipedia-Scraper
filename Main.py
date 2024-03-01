@@ -98,7 +98,5 @@ for group, subgroups in groups_with_subgroups.items():
         scrape(tables[i], group, subgroup, start_index+len(fish_data_list))  # Assuming each table directly corresponds; adjust as necessary
 
 
-
-
-with open('fish_data.json', 'w', encoding='utf-8') as f:
+with open('fish_data_links.json', 'w', encoding='utf-8') as f:
     json.dump(fish_data_list, f, ensure_ascii=False, indent=4)
