@@ -53,6 +53,7 @@ def scrape_description(second_url):
 def scrape(table, group, subgroup, start_index):
     global unique_index
     unique_index = start_index
+
     for row in table.find_all('tr')[1:]:  # Skip the header row
         cells = row.find_all('td')
         if len(cells) > 1:  # Ensure there are enough cells
@@ -74,7 +75,7 @@ def scrape(table, group, subgroup, start_index):
                 "remarks": cells[4].text.strip(),
                 "tank_size": cells[5].text.strip(),
                 "temperature": cells[6].text.strip(),
-                "pH": cells[7].text.strip(),
+                #"pH": cells[7].text.strip(),
                 "group": group,
                 "subgroup": subgroup,
                 "link": description_url,
@@ -92,10 +93,17 @@ def scrape(table, group, subgroup, start_index):
 # print("Rainbowfish subgroups:", len(groups_with_subgroups["Rainbowfish"]))
 # print("Catfish subgroups:", len(groups_with_subgroups["Catfish"]))
 
-start_index = 1
+
+table_index = 0  # Initialize table_index before the loop
+
 for group, subgroups in groups_with_subgroups.items():
-    for i, subgroup in enumerate(subgroups):
-        scrape(tables[i], group, subgroup, start_index+len(fish_data_list))  # Assuming each table directly corresponds; adjust as necessary
+    for subgroup in subgroups:
+        # Check if table_index exceeds the number of tables to prevent IndexError
+        if table_index >= len(tables):
+            print(f"Ran out of tables to scrape for {group} -> {subgroup}")
+            break
+        scrape(tables[table_index], group, subgroup, len(fish_data_list))
+        table_index += 1  # Increment table_index after each scrape call
 
 
 with open('fish_data_links.json', 'w', encoding='utf-8') as f:
