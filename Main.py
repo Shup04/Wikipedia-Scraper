@@ -15,6 +15,8 @@ soup = BeautifulSoup(response.content, 'html.parser')
 fish_data_list = []
 tables = soup.find_all('table', class_='sortable')
 
+global unique_index
+
 groups_with_subgroups = {
     "Catfish": ["Armored Catfish", "Armoured Suckermouth Catfish", "Long-whiskered Catfish", "Squeakers & Upside-down Catfish", "Other Catfish"],
     "Characins & Other Characiformes": ["Tetras", "Hatchetfish", "Pencilfish", "Serrasalminae", "Other Characins"],
@@ -48,11 +50,63 @@ def scrape_description(second_url):
     else:
         print("Specific div not found.")
 
+def appendPlaties():
+  fish_data_list.append({
+              "id": unique_index,
+              "name": "Southern platy",
+              "scientific_name": "Xiphophorus maculatus",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Xiphophorus_maculatus.jpg/175px-Xiphophorus_maculatus.jpg",
+              "size": "6 cm (2.4 in)",
+              "remarks": "",
+              "tank_size": "",
+              "temperature": "",
+              "pH": "",
+              "group": "Livebearers & Killifish",
+              "subgroup": "Platies & Swordtails",
+              "link": "https://en.wikipedia.org/wiki/Southern_platyfish",
+              "description": ""
+          })
+  unique_index += 1
+  fish_data_list.append({
+              "id": unique_index,
+              "name": "Southern platy",
+              "scientific_name": "Xiphophorus variatus",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Papagaienplaty.jpg/175px-Papagaienplaty.jpg",
+              "size": "6 cm (2.4 in)",
+              "remarks": "",
+              "tank_size": "",
+              "temperature": "",
+              "pH": "",
+              "group": "Livebearers & Killifish",
+              "subgroup": "Platies & Swordtails",
+              "link": "https://en.wikipedia.org/wiki/Variable_platyfish",
+              "description": ""
+          })
+  unique_index += 1
+  fish_data_list.append({
+              "id": unique_index,
+              "name": "Green swordtail",
+              "scientific_name": "Xiphophorus hellerii",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Xiphophorus_helleri_03.jpg/175px-Xiphophorus_helleri_03.jpg",
+              "size": "15 cm (5.9 in)",
+              "remarks": "",
+              "tank_size": "",
+              "temperature": "",
+              "pH": "",
+              "group": "Livebearers & Killifish",
+              "subgroup": "Platies & Swordtails",
+              "link": "https://en.wikipedia.org/wiki/Green_swordtail",
+              "description": ""
+          })
+  unique_index += 1
 
 # Scrapes whichever table is passed to it
 def scrape(table, group, subgroup, start_index):
-    global unique_index
+    
     unique_index = start_index
+    
+    if subgroup == "Platies & Swordtails":
+      appendPlaties()
 
     for row in table.find_all('tr')[1:]:  # Skip the header row
         cells = row.find_all('td')
@@ -83,27 +137,15 @@ def scrape(table, group, subgroup, start_index):
             })
             unique_index += 1
 
-# Checking the lengths of each subgroup to ensure alignment
-# print("Characins & Other Characiformes subgroups:", len(groups_with_subgroups["Characins & Other Characiformes"]))
-# print("Cichlids subgroups:", len(groups_with_subgroups["Cichlids"]))
-# print("Cyprinids subgroups:", len(groups_with_subgroups["Cyprinids"]))
-# print("Loaches & Related Cypriniformes subgroups:", len(groups_with_subgroups["Loaches & Related Cypriniformes"]))
-# print("Livebearers & Killifish subgroups:", len(groups_with_subgroups["Livebearers & Killifish"]))
-# print("Labyrinth Fish subgroups:", len(groups_with_subgroups["Labyrinth Fish"]))
-# print("Rainbowfish subgroups:", len(groups_with_subgroups["Rainbowfish"]))
-# print("Catfish subgroups:", len(groups_with_subgroups["Catfish"]))
-
-
 table_index = 0  # Initialize table_index before the loop
 
 for group, subgroups in groups_with_subgroups.items():
     for subgroup in subgroups:
         # Check if table_index exceeds the number of tables to prevent IndexError
-        if table_index >= len(tables):
-            print(f"Ran out of tables to scrape for {group} -> {subgroup}")
-            break
+        # print(f"Processing subgroup: {subgroup}")
         scrape(tables[table_index], group, subgroup, len(fish_data_list))
         table_index += 1  # Increment table_index after each scrape call
+        # print(f"Finished processing {subgroup}, current fish count: {len(fish_data_list)}")
 
 
 with open('fish_data_links.json', 'w', encoding='utf-8') as f:
