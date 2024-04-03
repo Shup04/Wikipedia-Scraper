@@ -56,7 +56,7 @@ def scrape(table, group, subgroup, start_index):
 
     for row in table.find_all('tr')[1:]:  # Skip the header row
         cells = row.find_all('td')
-        if len(cells) > 1:  # Ensure there are enough cells
+        if len(cells) == 8:  # Ensure there are enough cells
 
             # Grab image URL if it exists
             image_cell = cells[2].find('img')
@@ -65,7 +65,7 @@ def scrape(table, group, subgroup, start_index):
             # Grab the description from the hyperlink
             link_cell = cells[1].find('a', href=True)
             description_url = f"https://en.wikipedia.org{link_cell['href']}" if link_cell else ""
-            
+
             fish_data_list.append({
                 "id": unique_index,
                 "name": cells[0].text.strip(),
@@ -75,7 +75,7 @@ def scrape(table, group, subgroup, start_index):
                 "remarks": cells[4].text.strip(),
                 "tank_size": cells[5].text.strip(),
                 "temperature": cells[6].text.strip(),
-                #"pH": cells[7].text.strip(),
+                "pH": cells[7].text.strip(),
                 "group": group,
                 "subgroup": subgroup,
                 "link": description_url,
