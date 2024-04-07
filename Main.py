@@ -13,7 +13,7 @@ response.raise_for_status() # cause error if request fails
 soup = BeautifulSoup(response.content, 'html.parser')
 
 fish_data_list = []
-tables = soup.find_all('table', class_='sortable')
+tables = soup.find_all('table', class_=["sortable", "wikitable"])
 
 global unique_index
 
@@ -52,7 +52,7 @@ def scrape_description(second_url):
 
 def appendPlaties():
   fish_data_list.append({
-              "id": unique_index,
+              "id": 424,
               "name": "Southern platy",
               "scientific_name": "Xiphophorus maculatus",
               "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Xiphophorus_maculatus.jpg/175px-Xiphophorus_maculatus.jpg",
@@ -66,10 +66,9 @@ def appendPlaties():
               "link": "https://en.wikipedia.org/wiki/Southern_platyfish",
               "description": ""
           })
-  unique_index += 1
   fish_data_list.append({
-              "id": unique_index,
-              "name": "Southern platy",
+              "id": 425,
+              "name": "Variable platy",
               "scientific_name": "Xiphophorus variatus",
               "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Papagaienplaty.jpg/175px-Papagaienplaty.jpg",
               "size": "6 cm (2.4 in)",
@@ -82,9 +81,8 @@ def appendPlaties():
               "link": "https://en.wikipedia.org/wiki/Variable_platyfish",
               "description": ""
           })
-  unique_index += 1
   fish_data_list.append({
-              "id": unique_index,
+              "id": 426,
               "name": "Green swordtail",
               "scientific_name": "Xiphophorus hellerii",
               "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Xiphophorus_helleri_03.jpg/175px-Xiphophorus_helleri_03.jpg",
@@ -98,19 +96,16 @@ def appendPlaties():
               "link": "https://en.wikipedia.org/wiki/Green_swordtail",
               "description": ""
           })
-  unique_index += 1
 
 # Scrapes whichever table is passed to it
 def scrape(table, group, subgroup, start_index):
     
     unique_index = start_index
-    
-    if subgroup == "Platies & Swordtails":
-      appendPlaties()
 
     for row in table.find_all('tr')[1:]:  # Skip the header row
         cells = row.find_all('td')
-        if len(cells) == 8:  # Ensure there are enough cells
+        if (len(cells) == 8) and (cells[0].text.strip() != "Southern platy") and (cells[0].text.strip() != "Variable platy") and (cells[0].text.strip() != "Green swordtail"):  # Ensure there are enough cells
+
 
             # Grab image URL if it exists
             image_cell = cells[2].find('img')
@@ -137,15 +132,18 @@ def scrape(table, group, subgroup, start_index):
             })
             unique_index += 1
 
+        if unique_index == 423:
+            appendPlaties()
+            unique_index += 3
+
+        
+
 table_index = 0  # Initialize table_index before the loop
 
 for group, subgroups in groups_with_subgroups.items():
     for subgroup in subgroups:
-        # Check if table_index exceeds the number of tables to prevent IndexError
-        # print(f"Processing subgroup: {subgroup}")
         scrape(tables[table_index], group, subgroup, len(fish_data_list))
         table_index += 1  # Increment table_index after each scrape call
-        # print(f"Finished processing {subgroup}, current fish count: {len(fish_data_list)}")
 
 
 with open('fish_data_links.json', 'w', encoding='utf-8') as f:
