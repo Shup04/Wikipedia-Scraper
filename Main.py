@@ -5,15 +5,19 @@ import json
 from GPTSummarize import generateGPTResponse
 
 # Fetch content from the URL
-URL = "https://en.wikipedia.org/wiki/List_of_freshwater_aquarium_fish_species"
-response = requests.get(URL)
-response.raise_for_status() # cause error if request fails
+#URL = "./wikipage.html"
+#response = requests.get(URL)
+#response.raise_for_status() # cause error if request fails
+
+with open("./wikipage.html", "r") as file:
+    soup = BeautifulSoup(file, 'html.parser')
 
 # Parse the HTML content
-soup = BeautifulSoup(response.content, 'html.parser')
+#soup = BeautifulSoup(response.content, 'html.parser')
 
 fish_data_list = []
 tables = soup.find_all('table', class_=["sortable", "wikitable"])
+print(len(tables))
 
 global unique_index
 
