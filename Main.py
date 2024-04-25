@@ -76,7 +76,7 @@ for group, subgroups in groups_with_subgroups.items():
         table.decompose()
 
 # Saving the scraped data to a JSON file
-with open("fish_data_with_groups.json", "w", encoding="utf-8") as f:
+with open("fish_data_links.json", "w", encoding="utf-8") as f:
     json.dump(fish_data, f, indent=4)
 
 print("Data scraping completed and saved to fish_data_with_groups.json.")

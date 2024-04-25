@@ -34,5 +34,5 @@ with ThreadPoolExecutor(max_workers=20) as executor:
     fish_data_enriched = list(executor.map(enrich_data, fish_data_list))
 
 # Save the enriched data to a new JSON file
-with open('fish_data_descriptions.json', 'w') as file:
+with open('fish_data_descriptions2.json', 'w') as file:
     json.dump(fish_data_enriched, file, indent=4)
