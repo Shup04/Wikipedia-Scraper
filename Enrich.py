@@ -3,6 +3,7 @@ import requests
 import json
 from bs4 import BeautifulSoup
 from GPTSummarize import generateGPTResponse
+import time
 
 # Load the initial data
 with open('fish_data_links.json', 'r') as file:
@@ -21,17 +22,22 @@ def fetch_description(url):
 
 # Enrich data with descriptions (replacing URLs)
 def enrich_data(fish_data):
+    time.sleep(3)
     if 'link' in fish_data:
         description = fetch_description(fish_data['link'])
         print('Saving fish id: ', fish_data['id'])
-        fish_data['description'] = description
-        del fish_data['link']  # Optionally remove the URL
-    return fish_data
+        if description!="Description not available.":
+            fish_data['description'] = description.choices[0].message.content
+            #del fish_data['link']  # Optionally remove the URL
+            #print('Fish id: ', fish_data['id'], ' done.')
+            return fish_data
+    
 
 # Using ThreadPoolExecutor to parallelize fetching descriptions
-with ThreadPoolExecutor(max_workers=20) as executor:
+with ThreadPoolExecutor(max_workers=5) as executor:
     # Enrich each fish data entry with its description
     fish_data_enriched = list(executor.map(enrich_data, fish_data_list))
+    
 
 # Save the enriched data to a new JSON file
 with open('fish_data_descriptions2.json', 'w') as file:

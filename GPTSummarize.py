@@ -1,7 +1,8 @@
 from openai import OpenAI
 import os
 
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+#client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+
 MODEL = "gpt-3.5-turbo-0125"
 MAX_TOKENS = 100
 
