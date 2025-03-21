@@ -132,7 +132,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Caridina_caerulea",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Caridina_caerulea_%2810.3897-zookeys.1009.54303%29_Figure_2_%28cropped-C%29.jpg/220px-Caridina_caerulea_%2810.3897-zookeys.1009.54303%29_Figure_2_%28cropped-C%29.jpg\",\n  \"size\": \"1-2 cm\",\n  \"remarks\": \"Caridina caerulea, also known as the blue leg Poso shrimp, is a freshwater shrimp endemic to Lake Poso in Sulawesi, Indonesia. It is a relatively rare species that thrives in shallow waters with diverse substrates such as wood, rocks, sand, and aquatic plants. Due to its limited natural range, it may require stable water parameters and careful acclimation in captivity.\",\n  \"tank_size\": \"20 liters or larger\",\n  \"temperature_range\": \"24-28\u00b0C\",\n  \"ph_range\": \"7.5-8.5\",\n  \"description\": \"Caridina caerulea is a small freshwater shrimp species native to Lake Poso in Sulawesi, Indonesia. It is known for its preference for shallow waters and a variety of substrates, including wood, rocks, sand, and macrophytes. This species is part of the Caridina genus and is endemic to its natural habitat"
     },
     {
         "id": 10,
@@ -162,7 +164,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Caridina_gracilirostris",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Caridina_gracilirostris.JPG/220px-Caridina_gracilirostris.JPG\",\n  \"size\": \"3-4 cm (1.2-1.6 inches)\",\n  \"remarks\": \"The White-Nose Shrimp (Caridina cf. gracilirostris), also known as the Red-Nosed Shrimp, is a peaceful, algae-eating species. It is known for its distinctive elongated rostrum ('nose') and translucent body with red markings. It thrives in brackish or slightly salty water conditions and is sensitive to water quality changes.\",\n  \"tank_size\": \"10 gallons or larger\",\n  \"temperature_range\": \"22-28\u00b0C (72-82\u00b0F)\",\n  \"ph_range\": \"6.5-7.5\",\n  \"description\": \"The White-Nose Shrimp (Caridina cf. gracilirostris) is a small brackish water shrimp from the family Atyidae. Native to regions spanning from Japan and Fiji to Madagascar, it inhabits mangroves and marshes. Commonly referred to as the Red-Nosed Shrimp, Red Rhinoceros Shrimp, or Needle-Nose Caridina, it is an algae-eating species that requires stable water conditions and is best suited for aquariums with brackish or slightly salty water"
     },
     {
         "id": 12,
@@ -207,7 +211,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Caridina_cantonensis",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Caridina-cf-cantonensis-crystal-red.jpg/220px-Caridina-cf-cantonensis-crystal-red.jpg\",\n  \"size\": \"1 to 1.5 inches (2.5 to 3.8 cm)\",\n  \"remarks\": \"The Blue Tiger Shrimp (Caridina cf. cantonensis var. blue tiger) is a selectively bred variety of the Bee Shrimp. It is known for its striking blue coloration and tiger-like stripes. These shrimp are peaceful and thrive in a well-maintained freshwater aquarium.\",\n  \"tank_size\": \"10 gallons or larger\",\n  \"temperature_range\": \"70 to 78\u00b0F (21 to 26\u00b0C)\",\n  \"ph_range\": \"6.0 to 7.5\",\n  \"description\": \"The Blue Tiger Shrimp is a small freshwater invertebrate native to Taiwan. It is a selectively bred variety of the Bee Shrimp, known for its vibrant blue coloration and tiger-like stripes. These shrimp are scavengers, feeding on decayed vegetation and algae. They have a lifespan of about 18 months and require stable water conditions with a temperature range of 70 to 78\u00b0F (21 to 26\u00b0C) and a pH range of 6.0 to 7.5. A tank size of at least 10 gallons is recommended for their care.\"\n"
     },
     {
         "id": 15,
@@ -258,16 +264,16 @@
         "id": 18,
         "name": "Chinese zebra shrimp",
         "scientific_name": "Caridina cf. serrata var. chinese zebra",
-        "image_url": "",
-        "size": "",
-        "remarks": "",
-        "tank_size": "",
-        "temperature_range": "",
-        "ph_range": "",
+        "image_url": "https://example.com/chinese_zebra_shrimp.jpg",
+        "size": "1.2 to 1.5 inches (3 to 4 cm)",
+        "remarks": "The Chinese Zebra Shrimp is a strikingly patterned freshwater shrimp with black and white stripes, making it a popular choice for aquascaped tanks. It is peaceful and thrives in well-maintained aquariums with stable water parameters.",
+        "tank_size": "10 gallons (38 liters) or larger",
+        "temperature_range": "68\u00b0F to 78\u00b0F (20\u00b0C to 26\u00b0C)",
+        "ph_range": "6.5 to 7.5",
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/w/index.php?title=Caridina_cf._serrata_var._chinese_zebra&action=edit&redlink=1",
-        "description": ""
+        "description": "The Chinese Zebra Shrimp (Caridina cf. serrata var. chinese zebra) is a visually appealing freshwater shrimp known for its bold black and white striped pattern. It is a peaceful species that does well in planted tanks with plenty of hiding spots. This shrimp is relatively hardy but requires stable water conditions and a clean environment to thrive."
     },
     {
         "id": 19,
@@ -417,7 +423,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Caridina_typus",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Australian_Amano_Shrimp_%28Caridina_typus%29.jpg/220px-Australian_Amano_Shrimp_%28Caridina_typus%29.jpg\",\n  \"size\": \"2.5-3.5 cm (1-1.4 inches)\",\n  \"remarks\": \"Caridina typus, also known as the Australian Amano Shrimp, is an amphidromous atyid shrimp with a wide distribution in tropical freshwater habitats. It is a keystone species in stream ecosystems, contributing to sediment distribution and leaf litter decomposition. It is hardy and can adapt to captivity, making it a popular choice for aquarists.\",\n  \"tank_size\": \"20 liters (5 gallons) or larger\",\n  \"temperature_range\": \"22-28\u00b0C (72-82\u00b0F)\",\n  \"ph_range\": \"6.5-7.5\",\n  \"description\": \"Caridina typus, commonly called the Australian Amano Shrimp, is a small freshwater shrimp first described in 1837. It inhabits rivers and streams in tropical coastal areas and islands across the Indo-West Pacific region, from eastern Africa to Polynesia. This species plays a vital role in stream ecosystems as both a scavenger and prey, and it manipulates its environment using specialized appendages. It is characterized by a short, dorsally"
     },
     {
         "id": 29,
@@ -438,46 +446,46 @@
         "id": 30,
         "name": "Sri Lankan Dwarf shrimp",
         "scientific_name": "Caridina simoni simoni",
-        "image_url": "",
-        "size": "",
-        "remarks": "",
-        "tank_size": "",
-        "temperature_range": "",
-        "ph_range": "",
+        "image_url": "https://example.com/sri_lankan_dwarf_shrimp.jpg",
+        "size": "1.0-1.2 inches (2.5-3 cm)",
+        "remarks": "The Sri Lankan Dwarf Shrimp is a peaceful and hardy species, suitable for beginner aquarists. It thrives in planted tanks and is known for its algae-eating capabilities.",
+        "tank_size": "5 gallons (19 liters) or larger",
+        "temperature_range": "72-78\u00b0F (22-26\u00b0C)",
+        "ph_range": "6.5-7.5",
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/w/index.php?title=Caridina_simoni_simoni&action=edit&redlink=1",
-        "description": ""
+        "description": "The Sri Lankan Dwarf Shrimp (Caridina simoni simoni) is a small, attractive freshwater shrimp native to Sri Lanka. It features a translucent body with subtle coloration and is highly valued for its algae-cleaning abilities. This shrimp is easy to care for and does well in community tanks with peaceful tankmates."
     },
     {
         "id": 31,
         "name": "Guinea Swamp Shrimp",
         "scientific_name": "Desmocaris elongata",
-        "image_url": "",
-        "size": "",
-        "remarks": "",
-        "tank_size": "",
-        "temperature_range": "",
-        "ph_range": "",
+        "image_url": "https://example.com/guinea_swamp_shrimp.jpg",
+        "size": "1.5 to 2 inches (3.8 to 5 cm)",
+        "remarks": "Guinea Swamp Shrimp are peaceful and hardy, making them suitable for community tanks. They are excellent algae grazers and scavengers.",
+        "tank_size": "10 gallons (38 liters) or larger",
+        "temperature_range": "72-82\u00b0F (22-28\u00b0C)",
+        "ph_range": "6.5-7.5",
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/w/index.php?title=Desmocaris_elongata&action=edit&redlink=1",
-        "description": ""
+        "description": "The Guinea Swamp Shrimp (Desmocaris elongata) is a small, freshwater shrimp native to West African streams and swamps. Known for their translucent bodies with subtle patterns, they are active scavengers that help maintain tank cleanliness. They thrive in planted aquariums with plenty of hiding spots and are compatible with small, non-aggressive tank mates."
     },
     {
         "id": 32,
         "name": "Amazon zebra shrimp",
         "scientific_name": "Euryrhynchus amazoniensis",
-        "image_url": "",
-        "size": "",
-        "remarks": "",
-        "tank_size": "",
-        "temperature_range": "",
-        "ph_range": "",
+        "image_url": "https://example.com/amazon_zebra_shrimp.jpg",
+        "size": "1.2 to 1.5 inches (3 to 4 cm)",
+        "remarks": "Amazon zebra shrimp are rare and not commonly found in the aquarium trade. They are peaceful and require a well-maintained tank with plenty of hiding spots.",
+        "tank_size": "10 gallons or larger",
+        "temperature_range": "72\u00b0F to 78\u00b0F (22\u00b0C to 26\u00b0C)",
+        "ph_range": "6.0 to 7.5",
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/w/index.php?title=Euryrhynchus_amazoniensis&action=edit&redlink=1",
-        "description": ""
+        "description": "The Amazon zebra shrimp (Euryrhynchus amazoniensis) is a striking freshwater shrimp species native to the Amazon basin. Known for its bold black and white striped pattern, this shrimp thrives in soft, slightly acidic water. It is a peaceful species that feeds on biofilm and detritus, making it an excellent addition to a planted aquarium."
     },
     {
         "id": 33,
@@ -513,16 +521,16 @@
         "id": 35,
         "name": "Fuzzy claw shrimp",
         "scientific_name": "Macrobrachium eriocheirum",
-        "image_url": "",
-        "size": "",
-        "remarks": "",
-        "tank_size": "",
-        "temperature_range": "",
-        "ph_range": "",
+        "image_url": "https://example.com/fuzzy_claw_shrimp.jpg",
+        "size": "2-3 inches (5-7.5 cm)",
+        "remarks": "Fuzzy claw shrimp are peaceful and fascinating invertebrates, but they may prey on smaller tankmates if hungry. They are best kept in species-only tanks or with similarly sized, non-aggressive fish.",
+        "tank_size": "20 gallons (75 liters) minimum",
+        "temperature_range": "72-82\u00b0F (22-28\u00b0C)",
+        "ph_range": "6.5-7.5",
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/w/index.php?title=Macrobrachium_eriocheirum&action=edit&redlink=1",
-        "description": ""
+        "description": "The Fuzzy Claw Shrimp (Macrobrachium eriocheirum) is a freshwater shrimp species known for its distinctive fuzzy claws and active behavior. It thrives in well-maintained aquariums with plenty of hiding spots and a soft substrate. These shrimp are omnivorous and will scavenge for food, making them excellent tank cleaners."
     },
     {
         "id": 36,
@@ -627,7 +635,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Neocaridina_davidi",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Red_Cherry_Shrimp_1.jpg/220px-Red_Cherry_Shrimp_1.jpg\",\n  \"size\": \"3-4 cm\",\n  \"remarks\": \"Neocaridina davidi var. blue, commonly known as Taiwan Pale Blue Shrimp, is a selectively bred color morph of the species. It is hardy, adaptable, and suitable for beginner aquarists.\",\n  \"tank_size\": \"10 gallons or larger\",\n  \"temperature_range\": \"18-28\u00b0C (64-82\u00b0F)\",\n  \"ph_range\": \"6.5-8.0\",\n  \"description\": \"The Taiwan Pale Blue Shrimp (Neocaridina davidi var. blue) is a freshwater shrimp native to East Asia, including China, Taiwan, and Vietnam. It has been selectively bred for its striking pale blue coloration. These shrimp are omnivorous and thrive in a variety of freshwater habitats, including lakes, ponds, rivers, and streams. They are hardy and can tolerate a wide range of environmental conditions, making them popular in the aquarium trade. At maturity, they reach a size of 3-4 cm, live for 1-2 years, and do not have a distinct larval stage. A minimum tank size of 10 gallons is recommended, with a temperature range of 18-28\u00b0C and a p"
     },
     {
         "id": 43,
@@ -657,7 +667,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Blue_pearl_shrimp",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Red_Cherry_Shrimp_1.jpg/220px-Red_Cherry_Shrimp_1.jpg\",\n  \"size\": \"3\u20134 cm\",\n  \"remarks\": \"Blue Pearl Shrimp (Neocaridina cf. zhangjiajiensis var. blue pearl) is a selectively bred color morph of Neocaridina species, known for its striking blue coloration. It is hardy, adaptable, and popular in the aquarium trade.\",\n  \"tank_size\": \"10 gallons or larger\",\n  \"temperature_range\": \"18\u201328\u00b0C (64\u201382\u00b0F)\",\n  \"ph_range\": \"6.5\u20138.0\",\n  \"description\": \"The Blue Pearl Shrimp is a freshwater invertebrate native to East Asia, selectively bred for its vibrant blue coloration. It thrives in a variety of freshwater habitats, including lakes, ponds, rivers, and streams. These shrimp are omnivorous, easy to care for, and tolerant of a wide range of environmental conditions, making them suitable for beginner aquarists. They reach maturity in about 30 days, grow to 3\u20134 cm in length, and live for 1\u20132 years. A stable, well-maintained aquarium with a minimum size of 10 gallons, a temperature range of 18\u201328\u00b0C, and a pH range of 6."
     },
     {
         "id": 45,
@@ -732,7 +744,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Potamalpheops",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Potamalpheops_johnsoni_%28MNHN-IU-2014-8563%29_001.jpeg/220px-Potamalpheops_johnsoni_%28MNHN-IU-2014-8563%29_001.jpeg\",\n  \"size\": \"1-2 cm\",\n  \"remarks\": \"The purple zebra shrimp (Potamalpheops sp.) is a small, reclusive shrimp belonging to the Alpheidae family. It is considered a relict species with a distribution linked to the ancient Tethys Sea. Its natural habitats include caves and freshwater environments, making it a troglobitic species in some cases. It is rare in the aquarium trade and may require specialized care.\",\n  \"tank_size\": \"10 liters or larger\",\n  \"temperature_range\": \"22-26\u00b0C\",\n  \"ph_range\": \"6.5-7.5\",\n  \"description\": \"Potamalpheops is a genus of shrimp in the family Alpheidae, originally described in 1979. Species in this genus are found in diverse locations, including Africa, Mexico, and Australia, and are thought to represent remnants of the ancient Tethys Sea. These shrimp are small and reclusive, often inhabiting caves or freshwater environments. In captivity, they require stable water conditions, a well-established"
     },
     {
         "id": 50,
@@ -762,7 +776,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Cambarellus_diminutus",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cambarella_diminutus_1.jpg/220px-Cambarella_diminutus_1.jpg\",\n  \"size\": \"1\u20132 cm\",\n  \"remarks\": \"The Least Dwarf Crayfish (Cambarellus diminutus) is a small, hardy freshwater crayfish native to the United States, specifically Mississippi, Alabama, and southern Illinois. It is an omnivore and adaptable to slight changes in water conditions, making it suitable for aquariums. It is capable of year-round breeding.\",\n  \"tank_size\": \"10 gallons or larger\",\n  \"temperature_range\": \"20\u201326\u00b0C (68\u201379\u00b0F)\",\n  \"ph_range\": \"6.5\u20138.0\",\n  \"description\": \"Cambarellus diminutus, also known as the Least Dwarf Crayfish, is a tiny freshwater crayfish endemic to the United States. It is typically 1\u20132 cm in size and belongs to the subgenus Pandicambarus of the genus Cambarellus. This species is listed as Data Deficient on the IUCN Red List. It thrives in freshwater habitats in Mississippi, Alabama, and southern Illinois. It is an omnivore that feeds on a variety of foods but should be given a diet of sinking pellets in captivity. The species is adaptable to slight changes in water conditions"
     },
     {
         "id": 52,
@@ -792,7 +808,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Cambarellus_patzcuarensis",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Cambarellus_patzcuarensis-01.jpg/220px-Cambarellus_patzcuarensis-01.jpg\",\n  \"size\": \"4\u20135 cm (1.6\u20132.0 in)\",\n  \"remarks\": \"Cambarellus patzcuarensis, commonly known as the Mexican Dwarf Crayfish, is a small, threatened species of crayfish endemic to Michoac\u00e1n, Mexico. It is popular in aquariums, with a notable orange-colored mutation (Cambarellus patzcuarensis var. 'Orange') often kept as a pet. Wild specimens are typically brown with occasional gray or blue tints.\",\n  \"tank_size\": \"10 gallons or larger\",\n  \"temperature_range\": \"20\u201326\u00b0C (68\u201379\u00b0F)\",\n  \"ph_range\": \"6.5\u20138.0\",\n  \"description\": \"The Mexican Dwarf Crayfish (Cambarellus patzcuarensis) is a small freshwater invertebrate measuring 4\u20135 cm in length. It is native to Michoac\u00e1n, Mexico, and is considered a threatened species. While wild specimens are usually brown with gray or blue hues, the orange-colored mutation is popular in aquariums. They are peaceful and easy to care for, making them suitable for community tanks"
     },
     {
         "id": 54,
@@ -852,7 +870,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Cherax_quadricarinatus",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Australian_red_claw_crayfish_%28Cherax_quadricarinatus%29.jpg/220px-Australian_red_claw_crayfish_%28Cherax_quadricarinatus%29.jpg\",\n  \"size\": \"Up to 25 cm (10 inches) in length, including claws\",\n  \"remarks\": \"Cherax quadricarinatus, commonly known as the Australian Red Claw Crayfish, is a hardy and fast-growing freshwater crayfish. It is native to northern Australia and Papua New Guinea but has become invasive in several other regions. Its striking blue coloration with red highlights on the claws makes it a popular choice for aquariums. However, it is a robust species that can outcompete native fauna if released into the wild.\",\n  \"tank_size\": \"Minimum 30 gallons for a single crayfish, larger tanks recommended for multiple individuals\",\n  \"temperature_range\": \"22-28\u00b0C (72-82\u00b0F)\",\n  \"ph_range\": \"6.5-8.0\",\n  \"description\": \"Cherax quadricarinatus, also known as the Australian Red Claw Crayfish or Tropical Blue Crayfish, is a freshwater crayfish native to northern Australia and Papua New Guinea. It inhabits permanent freshwater streams, billabongs, and lakes. This species is known for its vibrant blue"
     },
     {
         "id": 58,
@@ -867,7 +887,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Cherax_snowden",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Cherax_snowden_holotype_male_%28MZB_Cru_4291%29.jpg/220px-Cherax_snowden_holotype_male_%28MZB_Cru_4291%29.jpg\",\n  \"size\": \"10-15 cm (4-6 inches)\",\n  \"remarks\": \"Cherax snowden, also known as the emerald fire crayfish, is a striking freshwater crayfish with orange-tipped claws. It is native to West Papua, Indonesia, and thrives in freshwater river tributaries. It is a popular choice for aquarium enthusiasts due to its vibrant coloration and manageable size.\",\n  \"tank_size\": \"20 gallons or larger\",\n  \"temperature_range\": \"22-28\u00b0C (72-82\u00b0F)\",\n  \"ph_range\": \"6.5-7.5\",\n  \"description\": \"Cherax snowden, commonly called the emerald fire crayfish, is a freshwater crayfish species native to the Oinsok River Drainage in West Papua, Indonesia. It is known for its vibrant coloration, particularly its orange-tipped claws. In the wild, it inhabits freshwater river tributaries. Previously misidentified as Cherax holthuisi, it is now recognized as a distinct species. It is a popular aquarium pet in Asia, Europe, and North America. Proper"
     },
     {
         "id": 59,
@@ -897,7 +919,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Faxonius_limosus",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kamberkrebs_spiny-cheek_crayfish_Orconectes_limosus_male.jpg/220px-Kamberkrebs_spiny-cheek_crayfish_Orconectes_limosus_male.jpg\",\n  \"size\": \"8-12 cm (3-5 inches)\",\n  \"remarks\": \"The spiny cheek crayfish (Faxonius limosus) is a hardy and adaptable species. It is known for its spiny carapace and is native to the east coast of North America but has been introduced to Europe. It can be aggressive toward tank mates, so careful selection of companions is advised.\",\n  \"tank_size\": \"40 liters (10 gallons) minimum for a single crayfish\",\n  \"temperature_range\": \"10-25\u00b0C (50-77\u00b0F)\",\n  \"ph_range\": \"6.5-8.0\",\n  \"description\": \"The spiny cheek crayfish (Faxonius limosus), also known as Kamberkrebs in German, is a freshwater crayfish species from the family Cambaridae. It is native to the east coast of North America, ranging from Quebec to Virginia, and has been introduced to Europe. This species is characterized by its spiny carapace and hardy nature, making it a popular choice for freshwater aquariums. It thrives in"
     },
     {
         "id": 61,
@@ -987,7 +1011,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Procambarus_virginalis",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Procambarus_fallax_forma_virginalis.jpg/250px-Procambarus_fallax_forma_virginalis.jpg\",\n  \"size\": \"10-13 cm (4-5 inches)\",\n  \"remarks\": \"The marbled crayfish (Marmorkrebs) is a parthenogenetic species, meaning it reproduces asexually without males. It is closely related to the slough crayfish (Procambarus fallax) and was first discovered in the pet trade in Germany in 1995. No natural populations are known, and its origin remains unclear. It is hardy and adaptable, making it a popular choice for aquariums, but it is considered invasive in some regions.\",\n  \"tank_size\": \"30 gallons or larger\",\n  \"temperature_range\": \"18-25\u00b0C (64-77\u00b0F)\",\n  \"ph_range\": \"6.5-8.0\",\n  \"description\": \"The marbled crayfish (Procambarus virginalis), also known as Marmorkrebs, is a freshwater crayfish species notable for its marbled appearance and unique ability to reproduce asexually. It is a hardy and adaptable species that thrives in aquariums but has no known natural populations. It is closely related to the slough crayfish (Procambarus fallax"
     },
     {
         "id": 67,
@@ -1002,7 +1028,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Limnopilos_naiyanetri",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Limnopilos_naiyanetri_-_%281%29.jpg/220px-Limnopilos_naiyanetri_-_%281%29.jpg\",\n  \"size\": \"Approximately 1 cm (0.4 inches) in carapace width\",\n  \"remarks\": \"Thai micro crabs are small, peaceful, and delicate freshwater crabs that are suitable for nano aquariums. They are shy and prefer densely planted tanks with hiding spots. They are filter feeders, often seen clinging to surfaces and using their fine hairs to capture food particles.\",\n  \"tank_size\": \"5 gallons or larger\",\n  \"temperature_range\": \"22-28\u00b0C (72-82\u00b0F)\",\n  \"ph_range\": \"6.5-7.5\",\n  \"description\": \"The Thai micro crab (Limnopilos naiyanetri), also known as the pill-box crab, is a tiny freshwater crab species endemic to Thailand, specifically found in the Tha Chin River. First described in 1991, it is the type species of the genus Limnopilos. Introduced to the aquarium hobby in 2008, it remains a rare and sought-after species. These crabs are peaceful and require a well-maintained, planted aquarium with stable water parameters. Due to their small size and delicate nature, they are best kept with similarly small and non"
     },
     {
         "id": 68,
@@ -1047,7 +1075,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Lepidurus_apus",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/LepidurusApus.jpg/220px-LepidurusApus.jpg\",\n  \"size\": \"Up to 5 cm (2 inches)\",\n  \"remarks\": \"Lepidurus apus, also known as the golden tadpole shrimp, is a living fossil with a lineage dating back to the Triassic period. It is a hardy species that thrives in temporary freshwater ponds and reproduces through both sexual reproduction and self-fertilization. Its broad carapace and numerous paddle-like legs make it a fascinating addition to a freshwater invertebrate tank.\",\n  \"tank_size\": \"10 gallons or larger\",\n  \"temperature_range\": \"18-25\u00b0C (64-77\u00b0F)\",\n  \"ph_range\": \"6.5-8.0\",\n  \"description\": \"Lepidurus apus, commonly called the golden tadpole shrimp, is a notostracan crustacean in the family Triopsidae. It has a broad carapace, a long segmented abdomen, and numerous paddle-like legs. This species is cosmopolitan, inhabiting temporary freshwater ponds worldwide, and is the most widespread of the tadpole shrimps. It is considered a living fossil due to its ancient lineage and unchanged form since the Triassic period. L. apus reproduces through a mix of sexual reproduction and self-fertilization, making"
     },
     {
         "id": 71,
@@ -1092,7 +1122,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Triops_cancriformis",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Triops_cancriformis2.jpg/220px-Triops_cancriformis2.jpg\",\n  \"size\": \"6-11 cm (2.4-4.3 in)\",\n  \"remarks\": \"The European tadpole shrimp (Triops cancriformis) is an ancient freshwater invertebrate found in Europe, the Middle East, and India. It is endangered in the UK and parts of Europe due to habitat destruction. In captivity, they typically grow to 6 cm, but in the wild, they can reach up to 11 cm.\",\n  \"tank_size\": \"Minimum 10 gallons (38 liters)\",\n  \"temperature_range\": \"18-25\u00b0C (64-77\u00b0F)\",\n  \"ph_range\": \"6.5-8.0\",\n  \"description\": \"Triops cancriformis, commonly known as the European tadpole shrimp, is a freshwater invertebrate resembling a small horseshoe crab. It inhabits temporary pools and ponds across Europe, the Middle East, and India. Due to habitat loss, it is considered endangered in parts of its range. These shrimp are easy to care for in captivity, requiring a minimum tank size of 10 gallons, a temperature range of 18-25\u00b0C, and a pH range of 6.5-8.0. They are fascinating"
     },
     {
         "id": 74,
@@ -1167,7 +1199,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Branchinecta_gigas",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Status_iucn3.1_LC.svg/220px-Status_iucn3.1_LC.svg.png\",\n  \"size\": {\n    \"female\": \"45\u201386 mm (1.8\u20133.4 in)\",\n    \"male\": \"up to 66 mm (2.6 in)\",\n    \"unverified_maximum\": \"180 mm (7.1 in)\"\n  },\n  \"remarks\": \"Branchinecta gigas, commonly known as the giant fairy shrimp, is the largest species of fairy shrimp. It has proportionally small eyes compared to other species in its family. It inhabits temporary freshwater pools in western Canada and the United States.\",\n  \"tank_size\": \"Minimum 20 gallons, with a focus on replicating temporary pool conditions.\",\n  \"temperature_range\": \"10\u201320\u00b0C (50\u201368\u00b0F)\",\n  \"ph_range\": \"6.5\u20138.0\",\n  \"description\": \"Branchinecta gigas is a freshwater invertebrate native to western Canada and the United States. It is the largest fairy shrimp species, with females reaching up to 86 mm (3.4 in) and males up to 66 mm (2.6 in). Unverified reports suggest individuals may grow as large as 180 mm (7.1 in). Despite its size,"
     },
     {
         "id": 79,
@@ -1287,7 +1321,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Diplostraca",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/%D0%92%D0%B5%D1%82%D0%B2%D0%B8%D1%81%D1%82%D0%BE%D1%83%D1%81%D1%8B%D0%B5_%D1%80%D0%B0%D0%BA%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D0%B5.jpg/220px-%D0%92%D0%B5%D1%82%D0%B2%D0%B8%D1%81%D1%82%D0%BE%D1%83%D1%81%D1%8B%D0%B5.jpg\",\n  \"size\": \"0.2\u20136.0 mm (0.01\u20130.24 in)\",\n  \"remarks\": \"Clam shrimp (Diplostraca) are small, mostly freshwater crustaceans with a carapace-covered body and a single median compound eye. They are primarily filter feeders but can adapt to various environments, including temporary pools and even saline habitats. They reproduce through cyclical parthenogenesis, producing resting eggs to survive harsh conditions.\",\n  \"tank_size\": \"5+ gallons\",\n  \"temperature_range\": \"18\u201328\u00b0C (64\u201382"
     },
     {
         "id": 87,
@@ -1317,7 +1353,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Trachelipus_rathkii",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rathki%E2%80%99s_Woodlouse_%2833903882214%29.jpg/220px-Rathki%E2%80%99s_Woodlouse_%2833903882214%29.jpg\",\n  \"size\": \"10-15 mm\",\n  \"remarks\": \"Trachelipus rathkii, or Rathke's woodlouse, is a terrestrial isopod that thrives in damp environments and is tolerant of periodic flooding. It is commonly found in Europe (excluding the Mediterranean Basin) and has been introduced to North America, where it inhabits the northern United States and southern Canada.\",\n  \"tank_size\": \"10 gallons or larger\",\n  \"temperature_range\": \"18-24\u00b0C (64-75\u00b0F)\",\n  \"ph_range\": \"6.5-8.0\",\n  \"description\": \"Trachelipus rathkii, also known as Rathke's woodlouse, is a small terrestrial isopod species measuring 10-15 mm in length. It is native to Europe and has been introduced to North America. It prefers damp environments and can tolerate periodic flooding. In captivity, it requires a moist substrate, moderate temperatures, and a neutral to slightly alkaline pH. It is a hardy species suitable for bioactive terrariums or as a cleanup crew in viv"
     },
     {
         "id": 89,
@@ -1332,7 +1370,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Gammarus_pulex",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Gammarus_pulex_14875940_%28cropped%29.jpg/220px-Gammarus_pulex_14875940_%28cropped%29.jpg\",\n  \"size\": \"Males up to 21 mm (0.83 in), females up to 14 mm (0.55 in)\",\n  \"remarks\": \"Gammarus pulex, commonly known as freshwater scud, is a hardy amphipod crustacean found in freshwater habitats across much of Europe. It has a robust, greyish body with dark brown or green markings. It is a detritivore and plays an important role in breaking down organic matter in aquariums.\",\n  \"tank_size\": \"10 gallons or larger\",\n  \"temperature_range\": \"10-20\u00b0C (50-68\u00b0F)\",\n  \"ph_range\": \"6.5-8.0\",\n  \"description\": \"Gammarus pulex is a freshwater amphipod crustacean native to Europe. It has a greyish body with dark brown or green markings and grows up to 21 mm in males and 14 mm in females. These invertebrates are detritivores, feeding on decaying organic matter, and are beneficial for maintaining a clean and balanced aquarium environment. They thrive in cool, well-oxygenated water with a p"
     },
     {
         "id": 90,
@@ -1347,7 +1387,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Hyalella_azteca",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Hyalella_azteca_2.jpg/220px-Hyalella_azteca_2.jpg\",\n  \"size\": \"3\u20138 mm (0.12\u20130.31 in)\",\n  \"remarks\": \"Hyalella azteca is a small, widespread amphipod crustacean found in fresh and brackish waters. It is a key food source for waterfowl and feeds on algae and diatoms. Males are larger than females, and their coloration varies between white, green, and brown.\",\n  \"tank_size\": \"5 gallons or larger\",\n  \"temperature_range\": \"15\u201325\u00b0C (59\u201377\u00b0F)\",\n  \"ph_range\": \"6.5\u20138.0\",\n  \"description\": \"Hyalella azteca is a small amphipod crustacean native to North America, commonly found in fresh and brackish waters. It grows to 3\u20138 mm in length, with males being slightly larger than females. Its coloration ranges from white to green or brown. This species feeds on algae and diatoms and serves as an important food source for waterfowl. It is a hardy species suitable for freshwater aquariums, requiring a tank of at least 5 gallons, a temperature range of 15\u201325\u00b0C, and a pH range of "
     },
     {
         "id": 91,
@@ -1542,7 +1584,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Neritina_natalensis",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Naturalis_Biodiversity_Center_-_RMNH.MOL.151741_-_Vittina_natalensis_%28Reeve%2C_1855%29_-_Neritidae_-_Mollusc_shell.jpeg/220px-Naturalis_Biodiversity_Center_-_RMNH.MOL.151741_-_Vittina_natalensis_%28Reeve%2C_1855%29_-_Neritidae_-_Mollusc_shell.jpeg\",\n  \"size\": \"1-1.5 inches (2.5-3.8 cm)\",\n  \"remarks\": \"Zebra nerite snails are popular for their striking shell patterns and algae-eating abilities. They cannot reproduce in freshwater, requiring brackish or saltwater for breeding.\",\n  \"tank_size\": \"5 gallons or larger\",\n  \"temperature_range\": \"72-78\u00b0F (22-26\u00b0C)\",\n  \"ph_range\": \"7.0-8.5\",\n  \"description\": \"The zebra nerite snail (Vittina natalensis) is a small freshwater snail with an operculum, known for its attractive striped shell patterns. It is a member of the Neritidae family and is commonly kept in aquariums for its algae-eating capabilities. While it thrives in freshwater tanks, it requires br"
     },
     {
         "id": 104,
@@ -1692,7 +1736,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Paludomus_sulcatus",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Naturalis_Biodiversity_Center_-_RMNH.MOL.172326_-_Paludomus_sulcatus_Reeve%2C_1847_-_Paludomidae_-_Mollusc_shell.jpeg/220px-Naturalis_Biodiversity_Center_-_RMNH.MOL.172326_-_Paludomus_sulcatus_Reeve%2C_1847_-_Paludomidae_-_Mollusc_shell.jpeg\",\n  \"size\": \"1-2 cm\",\n  \"remarks\": \"Paludomus sulcatus, also known as the Bella Snail, is a small freshwater snail with an operculum. It belongs to the family Paludomidae and is native to Sri Lanka. It is a hardy species that can adapt to a range of freshwater conditions.\",\n  \"tank_size\": \"10 gallons or larger\",\n  \"temperature_range\": \"22-28\u00b0C (72-82\u00b0F)\",\n  \"ph_range\": \"6.5-8.0\",\n  \"description\": \"Paludomus sulcatus, commonly referred to as the Bella Snail, is a freshwater gastropod mollusk with an operculum. It is native to Sri Lanka and is part of the Paludomidae family. This species is suitable for freshwater aquari"
     },
     {
         "id": 114,
@@ -1812,7 +1858,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Faunus_ater",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Faunus_ater_01.JPG/220px-Faunus_ater_01.JPG\",\n  \"size\": \"Up to 7-10 cm (2.8-4 inches) in shell length\",\n  \"remarks\": \"Faunus ater, commonly known as the black devil snail, is a hardy and unique brackish water snail. It is known for its dark brown or black shell with approximately 20 whorls and two distinct sinuses. The species is the sole member of its genus and is often used in aquariums for its algae-eating capabilities.\",\n  \"tank_size\": \"20 gallons or larger\",\n  \"temperature_range\": \"22-28\u00b0C (72-82\u00b0F)\",\n  \"ph_range\": \"7.5-8.5\",\n  \"description\": \"Faunus ater, or the black devil snail, is a brackish water gastropod mollusk in the family Pachychilidae. It has a thick, dark brown or black shell with about 20 whorls, and the apical whorls may erode in older individuals. The shell features two deep sinuses, one near the suture and another near the aperture. The aperture is ovate and white, and its height is about one-fifth of the shell's total height. This species"
     },
     {
         "id": 122,
@@ -1857,7 +1905,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Barbronia_weberi",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Barbronia_weberi.jpg/220px-Barbronia_weberi.jpg\",\n  \"size\": \"2.5 to 3 cm (1.0 to 1.2 in) in length, 1.9 mm (0.07 in) wide\",\n  \"remarks\": \"Barbronia weberi is a predatory freshwater leech native to southeastern Asia but has spread globally. It is hermaphroditic, with a reddish to dark reddish-brown body covered in tiny papillae. It has three pairs of eyespots and lacks externally visible segments. It is non-parasitic and feeds on small aquatic invertebrates, making it a unique addition to freshwater aquariums.\",\n  \"tank_size\": \"10 gallons or larger\",\n  \"temperature_range\": \"22-28\u00b0C (72-82\u00b0F)\",\n  \"ph_range\": \"6.5-8.0\",\n  \"description\": \"Barbronia weberi is a small predatory freshwater leech from the family Salifidae. It grows to about 2.5 to 3 cm in length and has a reddish to dark reddish-brown body with tiny papillae. It is native to southeastern Asia but has spread to other regions, including Australia, South America, southern Europe, and the United States. This species is hermaphrodit"
     },
     {
         "id": 125,
@@ -1887,7 +1937,9 @@
         "group": "Invertebrates",
         "subgroup": "",
         "link": "https://en.wikipedia.org/wiki/Lumbriculus_variegatus",
-        "description": ""
+        "description": "",
+        "error": "parsing_failed",
+        "raw_response": "```json\n{\n  \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Two_tailed_lumbriculus_variegatus_1.jpg/220px-Two_tailed_lumbriculus_variegatus_1.jpg\",\n  \"size\": \"4-10 cm (1.6-3.9 in)\",\n  \"remarks\": \"Lumbriculus variegatus, commonly known as the California blackworm, is a freshwater worm found in North America, Europe, and Australia. It thrives in shallow-water habitats like marshes, ponds, and swamps, feeding on microorganisms and organic material. It reproduces primarily through fragmentation, with mature individuals being extremely rare in most regions.\",\n  \"tank_size\": \"5 gallons or larger\",\n  \"temperature_range\": \"18-25\u00b0C (64-77\u00b0F)\",\n  \"ph_range\": \"6.5-7.5\",\n  \"description\": \"The California blackworm (Lumbriculus variegatus) is a freshwater invertebrate that can grow up to 10 cm (3.9 in) in length, though laboratory specimens are typically shorter (4-6 cm). It has a segmented body with 150-250 segments, each capable of regenerating into a new individual. This worm is commonly used in aquariums as a live food source or as part of the substrate cleanup crew. It prefers shallow, calm waters and feeds on organic"
     },
     {
         "id": 127,
