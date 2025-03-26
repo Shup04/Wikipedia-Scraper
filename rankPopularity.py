@@ -1,8 +1,8 @@
 import json
 
 # Load fish data from JSON
-input_file = "./fish_data.json"
-output_file = "./fish_requests.jsonl"
+input_file = "./inverts_data_complete.json"
+output_file = "./invert_requests.jsonl"
 
 with open(input_file, "r", encoding="utf-8") as file:
     fish_data = json.load(file)

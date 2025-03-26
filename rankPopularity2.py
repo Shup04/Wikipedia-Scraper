@@ -6,7 +6,7 @@ client = OpenAI()
 
 # Step 1: Upload your JSONL file for batch processing.
 batch_input_file = client.files.create(
-    file=open("fish_requests.jsonl", "rb"),
+    file=open("invert_requests.jsonl", "rb"),
     purpose="batch"
 )
 print("Uploaded file info:", batch_input_file)

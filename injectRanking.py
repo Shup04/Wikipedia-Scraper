@@ -4,7 +4,7 @@ import re
 DEFAULT_RANK = 13
 
 # Load original fish data
-with open("fish_data.json", "r", encoding="utf-8") as f:
+with open("inverts_data_complete.json", "r", encoding="utf-8") as f:
     fish_data = json.load(f)
 
 # Build an ordered list of popularity scores from the batch output file.
@@ -46,7 +46,7 @@ for fish in fish_data:
         fish["popularity_score"] = DEFAULT_RANK
 
 # Save the updated fish data to a new JSON file.
-with open("updated_fish_data.json", "w", encoding="utf-8") as f:
+with open("updated_invert_data.json", "w", encoding="utf-8") as f:
     json.dump(fish_data, f, indent=4)
 
 print("Updated fish_data with popularity scores saved to 'updated_fish_data.json'.")
